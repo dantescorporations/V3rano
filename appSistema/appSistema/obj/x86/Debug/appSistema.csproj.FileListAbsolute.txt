@@ -1,0 +1,1049 @@
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\bin\Debug\appSistema.exe
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\obj\x86\Debug\appSistema.Form1.resources
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Dariela\AppData\Local\Temporary Projects\appSistema\obj\x86\Debug\appSistema.pdb
+G:\Dariela\6_Semestre\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+G:\Dariela\6_Semestre\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+E:\Dariela\6_Semestre\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Dariela\6_Semestre\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Tracy de León\Documents\TEC\VI SEM\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Tracy de León\Documents\TEC\VI SEM\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\bin\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\bin\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Almacén.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Concentrado.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Empleados.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.frmUnidadesMedida.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Movimiento_Almacenes.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Productos.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Proveedores.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.RastreoEnvios.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Recepcion_De_Factura.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Recepcion_En_Almacen.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.Requizicion.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.SolicitudCot.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.tablaComparativa.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.ValidacionReq.resources
+Z:\Users\Abram\Desktop\verano\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Rene1\Desktop\AppSistemaVerano_Abraham\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene1\Desktop\AppSistemaVerano_Abraham\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene1\Desktop\SPymes\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene1\Desktop\SPymes\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\appSistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene\Desktop\appSistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\bin\Debug\appSistema.exe
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmConcentrado.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEmpleados.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUnidadesMedida.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_En_Almacen.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRequizicion.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.Registro.resources
+F:\Users\Abraham\Desktop\VeranoSistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\bin\Debug\appSistema.exe
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmConcentrado.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEmpleados.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUnidadesMedida.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_En_Almacen.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRequizicion.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Registro.resources
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+E:\Abraham\VernaoCiencia\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\bin\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmConcentrado.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEmpleados.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUnidadesMedida.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_En_Almacen.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRequizicion.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Registro.resources
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+Z:\Users\Abram\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+E:\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Rene\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+F:\Sistema20170629\appSistema\appSistema\bin\Debug\appSistema.exe
+F:\Sistema20170629\appSistema\appSistema\bin\Debug\appSistema.pdb
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+F:\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\bin\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\bin\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+Z:\Users\Abram\Desktop\Sistema20170629\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+G:\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.exe
+G:\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.pdb
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+G:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+E:\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.exe
+E:\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.pdb
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+E:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+Z:\Users\Abram\Desktop\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+D:\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.exe
+D:\Sistema 26_07_17\appSistema\appSistema\bin\Debug\appSistema.pdb
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+D:\Sistema 26_07_17\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+E:\Sistema 17_08_2017\appSistema\appSistema\bin\Debug\appSistema.exe
+E:\Sistema 17_08_2017\appSistema\appSistema\bin\Debug\appSistema.pdb
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+E:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+D:\Sistema 17_08_2017\appSistema\appSistema\bin\Debug\appSistema.exe
+D:\Sistema 17_08_2017\appSistema\appSistema\bin\Debug\appSistema.pdb
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmAlmacén.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+D:\Sistema 17_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+D:\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.exe
+D:\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.pdb
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+D:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+E:\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.exe
+E:\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.pdb
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+E:\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.exe
+Z:\Users\Abram\Desktop\Abraham\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.pdb
+E:\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+E:\Abraham\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Master\Desktop\Sistema 18_08_2017\Sistema 18_08_2017\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\bin\Debug\MySql.Data.dll
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\bin\Debug\MySql.Data.xml
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Leo\Desktop\Sistema 19.Oct.17\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\bin\Debug\MySql.Data.dll
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\bin\Debug\MySql.Data.xml
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.CoreCompileInputs.cache
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Leo\Desktop\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\MySql.Data.xml
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Rene\Desktop\Verano\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\MySql.Data.xml
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Rene\Desktop\Verano\20171106 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\appSistema.exe
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\appSistema.pdb
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\bin\Debug\MySql.Data.xml
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoProveedor.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMensaje.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCliente.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoProvedor.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDepartamento.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmBancos.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorCobrar.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmCuentasPorPagar.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreCompra.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmDevolucionSobreVenta.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradasSalidas.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEstatusCompras.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmGastos.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPuesto.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmUsuarios.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPlan.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmBuscar.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmContactoCliente.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPermisos.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmPrincipal.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipoGasto.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmFlijosDeEfectivo.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmMovimiento_Almacenes.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmObligaciones.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProductos.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Login.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Modificar.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPagodeVenta.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmPrefacturacion.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRecepcionDeCotizacion.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmRequisicion.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Módulos.frmResepcion_Factura.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.NuevaContraseña.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.Properties.Resources.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmProveedores.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRastreoEnvios.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmRecepcion_De_Factura.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmEntradaAlmacen.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmCostoProduccion.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmSolicitudCot.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTablaComparativa.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Obligacion.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmTipo_De_Producto.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.frmValidacionReq.resources
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.GenerateResource.Cache
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.csproj.CoreCompileInputs.cache
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.exe
+C:\Users\Hara\Documents\VERANO\20171109 Sistema\Sistema30Oct1PM\Sistema\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
