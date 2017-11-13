@@ -60,22 +60,36 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = " UPDATE tipogasto SET descripcion=  '" + txtDescripcion.Text + "',estatus=1 WHERE idTipoGasto=" + straux;
-                    Conexion.RegistrarLog("Modifico tipo de gasto a: " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = " UPDATE tipogasto SET descripcion=  '" + txtDescripcion.Text + "',estatus=1 WHERE idTipoGasto=" + straux;
+                        Conexion.RegistrarLog("Modifico tipo de gasto a: " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
-                BtnCancelar_Click(sender, e);
+              
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE tipogasto SET  estatus= 0 WHERE idTipoGaato= " + straux;
-                    Conexion.RegistrarLog("Elimino tipo de gasto: " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE tipogasto SET  estatus=0 WHERE idTipoGasto=" + straux;
+                        Conexion.RegistrarLog("Elimino tipo de gasto: " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
-
+                BtnCancelar_Click(sender, e);
             }
             catch (Exception)
             {

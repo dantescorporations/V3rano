@@ -186,7 +186,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(-5, 62);
+            this.label12.Location = new System.Drawing.Point(42, 63);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(43, 13);
             this.label12.TabIndex = 68;
@@ -196,7 +196,7 @@
             // 
             this.btnBuscarPlan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnBuscarPlan.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarPlan.Image")));
-            this.btnBuscarPlan.Location = new System.Drawing.Point(41, 52);
+            this.btnBuscarPlan.Location = new System.Drawing.Point(88, 53);
             this.btnBuscarPlan.Name = "btnBuscarPlan";
             this.btnBuscarPlan.Size = new System.Drawing.Size(32, 32);
             this.btnBuscarPlan.TabIndex = 67;

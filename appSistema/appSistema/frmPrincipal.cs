@@ -391,12 +391,20 @@ namespace appSistema
             frm.Show();
         }
 
-       
-
-     
-
-          
+        private void agregarTipoContactoProveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTipoContactoProveedor frm = new frmTipoContactoProveedor();
+            frm.MdiParent = this;
+            frm.Show();
         }
+
+        private void agregarTipoContactoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmTipoContactoCliente frm = new frmTipoContactoCliente();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+    }
 
         
     }

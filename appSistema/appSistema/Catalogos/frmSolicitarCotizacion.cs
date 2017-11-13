@@ -18,7 +18,7 @@ namespace appSistema.Catalogos
 
         bool btnInsertarPresionado = false;
         bool btnModificarPresionado = false;
-        bool btnEliminarPresionado = false;
+       
         string straux;
         public void Habilitar()
         {
@@ -98,10 +98,17 @@ namespace appSistema.Catalogos
             if (btnModificarPresionado)
             {
                 string linea;
+                DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                if (dialogresult == DialogResult.Yes)
+                {
+                    linea = "UPDATE soliccotizacion SET descripcion ='" + txtDescripción.Text + "', fecha='" + mskFecha.Text + "', idEmpleado='" + cboEmpleado.ValueMember + "', idProveedor='" + cboProveedor.ValueMember + "', idRequisicion='" + cboRequisicion.ValueMember + "' WHERE NoCotizacion= " + straux;
 
-                linea = "UPDATE soliccotizacion SET descripcion ='" + txtDescripción.Text + "', fecha='" + mskFecha.Text + "', idEmpleado='" + cboEmpleado.ValueMember + "', idProveedor='" + cboProveedor.ValueMember + "', idRequisicion='" + cboRequisicion.ValueMember + "' WHERE NoCotizacion= " + straux;
-
-                Conexion.Modificar(linea);
+                    Conexion.Modificar(linea);
+                }
+                else
+                {
+                    return;
+                }
             }
             BtnCancelar_Click(sender, e);
         }
@@ -125,7 +132,7 @@ namespace appSistema.Catalogos
 
         private void frmSolicitarCotizacion_Load(object sender, EventArgs e)
         {
-            Deshabilitar();
+          Deshabilitar();
             try
             {
                 string query = "SELECT idProvedor, empresa FROM provedor WHERE estatus=1";
@@ -135,7 +142,33 @@ namespace appSistema.Catalogos
                 Conexion.LlenarComboBox(cboProveedor, query);
                 Conexion.LlenarComboBox(cboRequisicion, query2);
                 Conexion.LlenarComboBox(cboEmpleado, query3);
+                if (cboProveedor.Items.Count == 0)
+                {
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Proveedores, Desea agregar un Proveedor", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        
+                    }
+                    else
+                    {
+                     
+                    }
+                }
+                if (cboRequisicion.Items.Count == 0)
+                {
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Requisicion, Desea agregar una Requisicion", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
 
+
+                     
+                    }
+                    else
+                    {
+                      
+                    }
+                }
+              
 
             }
             catch (Exception)
@@ -156,7 +189,6 @@ namespace appSistema.Catalogos
 
             btnInsertarPresionado = false;
             btnModificarPresionado = false;
-            btnEliminarPresionado = false;
         }
     }
 }

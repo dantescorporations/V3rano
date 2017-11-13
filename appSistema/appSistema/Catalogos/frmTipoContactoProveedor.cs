@@ -62,19 +62,34 @@ namespace appSistema.Catalogos
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = " UPDATE tipocontactoproveedor SET estatus=1,descripcion=  '" + txtDescripcion.Text + "' WHERE idTipoContactoProveedor=" + straux;
-                    Conexion.RegistrarLog("Modifico tipo contacto proveedor " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Esta seguro de realizar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = " UPDATE tipocontactoproveedor SET estatus=1,descripcion=  '" + txtDescripcion.Text + "' WHERE idTipoContactoProveedor=" + straux;
+                        Conexion.RegistrarLog("Modifico tipo contacto proveedor " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE tipocontactoproveedor SET  estatus= 0 WHERE idTipoContactoProveedor= " + straux;
+                        Conexion.RegistrarLog("Elimino tipo contacto proveedor " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
 
-                    linea = "UPDATE tipocontactoproveedor SET  estatus= 0 WHERE idTipoContactoProveedor= " + straux;
-                    Conexion.RegistrarLog("Elimino tipo contacto proveedor " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
 

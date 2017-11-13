@@ -91,15 +91,22 @@ namespace appSistema
             if (btnModificarPresionado)
             {
                 string linea;
-
-                linea = "UPDATE contactocliente SET nombre='" + txtNombre.Text + "', a_Paterno='" + txtAP.Text + "', a_Materno='" + txtAM.Text + "', telefono='" + maskTelefono.Text + "', extencion='" + mskExtension.Text + "', estatus='1', idCliente='" + cboEmpresa.ValueMember + "', idTipoContactoCliente='" + cboEmpresa.ValueMember + "', clave='" + txtClave.Text + "' WHERE idContactoCliente= " + straux;
-                Conexion.RegistrarLog(linea);
-                Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE contactocliente SET nombre='" + txtNombre.Text + "', a_Paterno='" + txtAP.Text + "', a_Materno='" + txtAM.Text + "', telefono='" + maskTelefono.Text + "', extencion='" + mskExtension.Text + "', estatus='1', idCliente='" + cboEmpresa.ValueMember + "', idTipoContactoCliente='" + cboEmpresa.ValueMember + "', clave='" + txtClave.Text + "' WHERE idContactoCliente= " + straux;
+                        Conexion.RegistrarLog(linea);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
             }
             if (btnEliminarPresionado)
             {
 
-                    DialogResult dialogresult = MessageBox.Show("Realmente desea Eliminar El Empleado Seleccionado", "Mensaje", MessageBoxButtons.YesNo);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)
                     {
                         string linea;
@@ -165,7 +172,37 @@ namespace appSistema
 
                 Conexion.LlenarComboBox(cboTipoContacto, query);
                 Conexion.LlenarComboBox(cboEmpresa, query2);
+                if (cboTipoContacto.Items.Count == 0)
+                {
 
+
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Tipos de Contactos, Desea agregar un Tipo de Contacto", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+
+                       
+                    }
+                    else
+                    {
+                       
+                    }
+                }
+                if (cboEmpresa.Items.Count == 0)
+                {
+
+
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Empresas, Desea agregar una Empresa", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+
+                    }
+                    else
+                    {
+                      
+                    }
+                }
 
             }
             catch (Exception)

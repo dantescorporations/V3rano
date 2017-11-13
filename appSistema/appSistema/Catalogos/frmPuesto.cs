@@ -61,19 +61,33 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = " UPDATE puesto SET estatus=1,nombre=  '" + txtDescripcion.Text + "' WHERE idPuesto=" + straux;
-                    Conexion.RegistrarLog("Modifico puesto " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = " UPDATE puesto SET estatus=1,nombre=  '" + txtDescripcion.Text + "' WHERE idPuesto=" + straux;
+                        Conexion.RegistrarLog("Modifico puesto " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE puesto SET  estatus= 0 WHERE idPuesto= " + straux;
-                    Conexion.RegistrarLog("Elimino puesto " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE puesto SET  estatus= 0 WHERE idPuesto= " + straux;
+                        Conexion.RegistrarLog("Elimino puesto " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }

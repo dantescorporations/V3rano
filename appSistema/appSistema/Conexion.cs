@@ -228,7 +228,7 @@ namespace appSistema
                 Conectar();
                 MySqlCommand sqlc = new MySqlCommand(query,con);
                 sqlc.ExecuteNonQuery();
-                MessageBox.Show("Valido");
+                MessageBox.Show("Hecho");
             }
             catch (Exception ex)
             {

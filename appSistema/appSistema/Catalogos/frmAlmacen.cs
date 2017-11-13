@@ -138,7 +138,7 @@ namespace appSistema.Catalogos
                 }
                 if (btnModificarPresionado)
                 {
-                    DialogResult dialogresult = MessageBox.Show("Realmente desea Modificar El Empleado Seleccionado", "Mensaje", MessageBoxButtons.YesNo);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)
                     {
                         string linea;
@@ -156,10 +156,10 @@ namespace appSistema.Catalogos
                 {
 
                         string linea;
-                        DialogResult dialogresult = MessageBox.Show("Realmente desea Eliminar El Empleado Seleccionado", "Mensaje", MessageBoxButtons.YesNo);
-                        if (dialogresult == DialogResult.Yes)
-                        {
-                            linea = "UPDATE almacen SET  estatus= 0 WHERE idAlmacen= " + straux;
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE almacen SET  estatus= 0 WHERE idAlmacen= " + straux;
                             Conexion.RegistrarLog("Elimino almacen " + txtDescripcion.Text);
                             Conexion.Insertar(linea);
                             Limpiar();

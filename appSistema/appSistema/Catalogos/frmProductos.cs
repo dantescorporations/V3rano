@@ -55,10 +55,23 @@ namespace appSistema
             Deshabilitar();
             string query = "SELECT idTipoProducto,descripcion FROM tipoproducto WHERE estatus=1";
             Conexion.LlenarComboBox(cboTipoProducto, query);
+            if (cboTipoProducto.Items.Count == 0)
+            {
+                DialogResult dialogresult = MessageBox.Show("No existe registros de Tipo de Productos, Desea agregar un Tipo de Producto", "Mensaje", MessageBoxButtons.YesNo);
+                if (dialogresult == DialogResult.Yes)
+                {
 
+
+                    this.Close();
+                }
+                else
+                {
+                    this.Close();
+                }
+            }
             string query2 = "SELECT idUnidadMedida,unidad FROM unidadmedida WHERE estatus=1";
             Conexion.LlenarComboBox(cboUnidad, query2);
-
+           
 
 
         }
@@ -119,19 +132,33 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE producto SET nombre='" + txtNombre.Text + "',precio='" + txtPrecio.Text + "',codigo='" + txtCodigoInterno.Text + "',   estatus='1', idTipoProducto='" + cboTipoProducto.SelectedValue + "', idUnidadMedida='" + cboUnidad.SelectedValue + "' WHERE idProducto=" + straux;
-                    Conexion.RegistrarLog("Modifico producto producto " + txtCodigoInterno.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE producto SET nombre='" + txtNombre.Text + "',precio='" + txtPrecio.Text + "',codigo='" + txtCodigoInterno.Text + "',   estatus='1', idTipoProducto='" + cboTipoProducto.SelectedValue + "', idUnidadMedida='" + cboUnidad.SelectedValue + "' WHERE idProducto=" + straux;
+                        Conexion.RegistrarLog("Modifico producto producto " + txtCodigoInterno.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE producto SET  estatus= 0 WHERE idProducto= " + straux;
-                    Conexion.RegistrarLog("Elimino producto " + txtCodigoInterno.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE producto SET  estatus= 0 WHERE idProducto= " + straux;
+                        Conexion.RegistrarLog("Elimino producto " + txtCodigoInterno.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }

@@ -195,6 +195,37 @@ namespace appSistema
                 string query2 = "SELECT idPuesto, nombre FROM puesto WHERE estatus=1";
                 Conexion.LlenarComboBox(cboDepartamento, query);
                 Conexion.LlenarComboBox(cboPuesto, query2);
+                if (cboDepartamento.Items.Count == 0)
+                {
+
+
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Departamentos, Desea agregar un Departamento", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+
+                     
+                    }
+                    else
+                    {
+                    
+                    }
+                }
+                if (cboPuesto.Items.Count == 0)
+                {
+
+
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Puestos, Desea agregar un Puesto", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+
+                    }
+                    else
+                    {
+                       
+                    }
+                }
 
             }
             catch (Exception)
@@ -282,19 +313,26 @@ namespace appSistema
                 }
                 if (btnModificarPresionado)
                 {
-
-                    if ((txtContraseña.Text == "") || (txtUsuario.Text == "") || (txtNombre.Text == "") || (txtAM.Text == "") || (txtAP.Text == "") || (txtRFC.Text == "") || (txtCalle.Text == "") || (msktxtNumero.Text == ""))
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
                     {
-                        MessageBox.Show("Faltan Llenar campos");
+                        if ((txtContraseña.Text == "") || (txtUsuario.Text == "") || (txtNombre.Text == "") || (txtAM.Text == "") || (txtAP.Text == "") || (txtRFC.Text == "") || (txtCalle.Text == "") || (msktxtNumero.Text == ""))
+                        {
+                            MessageBox.Show("Faltan Llenar campos");
+                            return;
+                        }
+
+                        string linea;
+
+                        linea = "UPDATE empleado SET nombre='" + txtNombre.Text + "', a_Paterno='" + txtAP.Text + "', a_Materno='" + txtAM.Text + "', telefono='" + txtTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + msktxtNumero.Text + "', colonia='" + txtColonia.Text + "', municipio='" + txtCiudad.Text + "', estado='" + txtEstado.Text + "', rfc='" + txtRFC.Text + "', usuario='" + txtUsuario.Text + "', password='" + txtContraseña.Text + "', administrador='" + cboAdministrador.SelectedValue + "', estatus='1', idPuesto='" + cboPuesto.SelectedValue + "', idDepartamento='" + cboDepartamento.SelectedValue + "' WHERE idEmpleado= " + straux;
+                        Conexion.RegistrarLog("Modifico usuario con el RFC " + txtRFC.Text);
+                        Conexion.Insertar(linea);
+                        BtnCancelar_Click(sender, e);
+                    }
+                    else
+                    {
                         return;
                     }
-
-                    string linea;
-
-                    linea = "UPDATE empleado SET nombre='" + txtNombre.Text + "', a_Paterno='" + txtAP.Text + "', a_Materno='" + txtAM.Text + "', telefono='" + txtTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + msktxtNumero.Text + "', colonia='" + txtColonia.Text + "', municipio='" + txtCiudad.Text + "', estado='" + txtEstado.Text + "', rfc='" + txtRFC.Text + "', usuario='" + txtUsuario.Text + "', password='" + txtContraseña.Text + "', administrador='" + cboAdministrador.SelectedValue + "', estatus='1', idPuesto='" + cboPuesto.SelectedValue + "', idDepartamento='" + cboDepartamento.SelectedValue + "' WHERE idEmpleado= " + straux;
-                    Conexion.RegistrarLog("Modifico usuario con el RFC " + txtRFC.Text);
-                    Conexion.Insertar(linea);
-                    BtnCancelar_Click(sender, e);
                 }
                 if (btnEliminarPresionado)
                 {
@@ -302,10 +340,10 @@ namespace appSistema
                     
                      
                         string linea;
-                       DialogResult dialogresult= MessageBox.Show("Realmente desea Eliminar El Empleado Seleccionado","Mensaje",MessageBoxButtons.YesNo);
-                        if (dialogresult == DialogResult.Yes)
-                        {
-                            linea = "UPDATE empleado SET  estatus= 0 WHERE idEmpleado= " + straux;
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE empleado SET  estatus= 0 WHERE idEmpleado= " + straux;
                             Conexion.RegistrarLog("Elimino usuario con el RFC " + txtRFC.Text);
                             Conexion.Insertar(linea);
                             BtnCancelar_Click(sender, e);

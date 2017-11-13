@@ -76,7 +76,7 @@ namespace appSistema
 
                 DataRow dr = Conexion.ObtenerDatos("select * from provedor where idProvedor = '" + straux + "'");
 
-                txtClave.Text = dr.ItemArray[9].ToString();
+                txtClave.Text = dr.ItemArray[10].ToString();
                 txtEmpresa.Text = dr.ItemArray[1].ToString();
                 mskTelefono.Text = dr.ItemArray[2].ToString();
                 txtCiudad.Text = dr.ItemArray[6].ToString();
@@ -121,7 +121,7 @@ namespace appSistema
                     }
                     string linea;
 
-                    linea = "INSERT INTO provedor(empresa,telefono,calle,numero,colonia,municipio,estado,estatus,idProvedor)VALUES ('" + txtEmpresa.Text + "', '" + mskTelefono.Text + "','" + txtCalle.Text + "', '" + txtNumero.Text + "', '" + txtColonia.Text + "', '" + txtCiudad.Text + "', '" + txtEstado.Text + "', '1', '" + txtClave.Text + "')";
+                    linea = "INSERT INTO provedor(empresa,telefono,calle,numero,colonia,municipio,estado,estatus,clave)VALUES ('" + txtEmpresa.Text + "', '" + mskTelefono.Text + "','" + txtCalle.Text + "', '" + txtNumero.Text + "', '" + txtColonia.Text + "', '" + txtCiudad.Text + "', '" + txtEstado.Text + "', '1', '" + txtClave.Text + "')";
                     Conexion.RegistrarLog("Inserto Proveedor " + txtClave.Text);
                     Conexion.Insertar(linea);
 
@@ -129,19 +129,33 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE provedor SET empresa='" + txtEmpresa.Text + "', telefono='" + mskTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + txtNumero.Text + "', colonia='" + txtColonia.Text + "', municipio='" + txtCiudad.Text + "', estado='" + txtEstado.Text + "', estatus='1', clave='" + txtClave.Text + "' WHERE idProvedor= " + straux;
-                    Conexion.RegistrarLog("Modifico Proveedor " + txtClave.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE provedor SET empresa='" + txtEmpresa.Text + "', telefono='" + mskTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + txtNumero.Text + "', colonia='" + txtColonia.Text + "', municipio='" + txtCiudad.Text + "', estado='" + txtEstado.Text + "', estatus='1', clave='" + txtClave.Text + "' WHERE idProvedor= " + straux;
+                        Conexion.RegistrarLog("Modifico Proveedor " + txtClave.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE provedor SET  estatus= 0 WHERE idProvedor= " + straux;
-                    Conexion.RegistrarLog("Elimino Proveedor " + txtClave.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE provedor SET  estatus= 0 WHERE idProvedor= " + straux;
+                        Conexion.RegistrarLog("Elimino Proveedor " + txtClave.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }

@@ -40,9 +40,15 @@ namespace appSistema
             txtDescripcion.Text = "";
             cboEmpleado.Text = "";
             cboTipoObligacion.Text = "";
+
         }
         public bool Validar()
         {
+            if ((txtDescripcion.Text=="")||(cboTipoObligacion.Text=="")||(cboEmpleado.Text==""))
+            {
+                Conexion.MostrarMensaje("Faltan Llenar campos por llenar");
+                return true;
+            }
             return false;
         }
         private void btnGuardar_Click(object sender, EventArgs e)
@@ -66,20 +72,34 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE obligacion SET descripcion='" + txtDescripcion.Text + "', estatus='1', idTipoObligacion='" + cboTipoObligacion.SelectedValue + "', idEmpleado='" + cboEmpleado.SelectedValue + "' WHERE idObligacion=" + straux;
-                    Conexion.RegistrarLog("Modifico obligacion " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE obligacion SET descripcion='" + txtDescripcion.Text + "', estatus='1', idTipoObligacion='" + cboTipoObligacion.SelectedValue + "', idEmpleado='" + cboEmpleado.SelectedValue + "' WHERE idObligacion=" + straux;
+                        Conexion.RegistrarLog("Modifico obligacion " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
 
                     string linea;
-
-                    linea = "UPDATE obligacion SET  estatus= 0 WHERE idObligacion= " + straux;
-                    Conexion.RegistrarLog("Elimino obligacion " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE obligacion SET  estatus= 0 WHERE idObligacion= " + straux;
+                        Conexion.RegistrarLog("Elimino obligacion " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }
@@ -98,9 +118,24 @@ namespace appSistema
             Deshabilitar();
             string query = "SELECT idTipoObligacion,descripcion FROM tipoobligacion WHERE estatus= 1";
             Conexion.LlenarComboBox(cboTipoObligacion, query);
-
+            if (cboTipoObligacion.Items.Count==0)
+            {
+                DialogResult dialogresult = MessageBox.Show("No existe registros de Tipo de Obligacion, Desea agregar un Tipo de Obligacion", "Mensaje", MessageBoxButtons.YesNo);
+                if (dialogresult == DialogResult.Yes)
+                {
+                   
+                    
+                  
+                }
+                else
+                {
+                   
+                }
+                }
             string query2 = "SELECT idEmpleado,nombre FROM empleado WHERE estatus= 1";
             Conexion.LlenarComboBox(cboEmpleado, query2);
+         
+
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)

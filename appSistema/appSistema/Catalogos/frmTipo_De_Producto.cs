@@ -63,19 +63,33 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = " UPDATE tipoproducto SET descripcion=  '" + txtDescripcion.Text + "',estatus=1 WHERE idTipoProducto=" + straux;
-                    Conexion.RegistrarLog("Modifico tipo de producto " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Esta seguro de realizar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = " UPDATE tipoproducto SET descripcion=  '" + txtDescripcion.Text + "',estatus=1 WHERE idTipoProducto=" + straux;
+                        Conexion.RegistrarLog("Modifico tipo de producto " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE tipoproducto SET  estatus= 0 WHERE idTipoProducto= " + straux;
-                    Conexion.RegistrarLog("Elimino tipo de producto " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE tipoproducto SET  estatus= 0 WHERE idTipoProducto= " + straux;
+                        Conexion.RegistrarLog("Elimino tipo de producto " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }

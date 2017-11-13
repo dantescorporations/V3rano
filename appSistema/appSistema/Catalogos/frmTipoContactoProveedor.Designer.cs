@@ -59,7 +59,7 @@
             this.groupBox1.Size = new System.Drawing.Size(415, 79);
             this.groupBox1.TabIndex = 64;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Contcto Proveedor";
+            this.groupBox1.Text = "Contacto Proveedor";
             // 
             // txtDescripcion
             // 
@@ -203,7 +203,6 @@
             this.Controls.Add(this.gpBAcciones);
             this.Controls.Add(this.gpBConsultas);
             this.Controls.Add(this.groupBox1);
-            this.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Name = "frmTipoContactoProveedor";
             this.Text = "frmTipoContactoProveedor";
             this.Load += new System.EventHandler(this.frmTipoContactoProveedor_Load);

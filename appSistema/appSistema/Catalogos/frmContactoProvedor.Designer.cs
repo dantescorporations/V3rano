@@ -40,7 +40,7 @@
             this.mskExtension = new System.Windows.Forms.MaskedTextBox();
             this.maskTelefono = new System.Windows.Forms.MaskedTextBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.cboEmpresa = new System.Windows.Forms.ComboBox();
+            this.cboProveedor = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -114,7 +114,7 @@
             this.groupBox1.Controls.Add(this.mskExtension);
             this.groupBox1.Controls.Add(this.maskTelefono);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.cboEmpresa);
+            this.groupBox1.Controls.Add(this.cboProveedor);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Controls.Add(this.label2);
@@ -183,22 +183,22 @@
             this.label6.TabIndex = 29;
             this.label6.Text = "Telefono";
             // 
-            // cboEmpresa
+            // cboProveedor
             // 
-            this.cboEmpresa.FormattingEnabled = true;
-            this.cboEmpresa.Location = new System.Drawing.Point(516, 33);
-            this.cboEmpresa.Name = "cboEmpresa";
-            this.cboEmpresa.Size = new System.Drawing.Size(121, 24);
-            this.cboEmpresa.TabIndex = 28;
+            this.cboProveedor.FormattingEnabled = true;
+            this.cboProveedor.Location = new System.Drawing.Point(516, 33);
+            this.cboProveedor.Name = "cboProveedor";
+            this.cboProveedor.Size = new System.Drawing.Size(121, 24);
+            this.cboProveedor.TabIndex = 28;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(452, 36);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 16);
+            this.label5.Size = new System.Drawing.Size(66, 16);
             this.label5.TabIndex = 27;
-            this.label5.Text = "Empresa";
+            this.label5.Text = "Proveedor";
             // 
             // label1
             // 
@@ -371,7 +371,7 @@
         private System.Windows.Forms.MaskedTextBox mskExtension;
         private System.Windows.Forms.MaskedTextBox maskTelefono;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.ComboBox cboEmpresa;
+        private System.Windows.Forms.ComboBox cboProveedor;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

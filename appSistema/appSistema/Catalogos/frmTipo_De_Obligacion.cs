@@ -64,20 +64,35 @@ namespace appSistema
                 }
                 if (btnModificarPresionado)
                 {
-                    string linea;
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        string linea;
 
-                    linea = " UPDATE tipoobligacion SET descripcion=  '" + txtDescripcion.Text + "',estatus=1 WHERE idTipoObligacion=" + straux;
-                    Conexion.RegistrarLog("Modifico tipo de obligacion " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
+                        linea = " UPDATE tipoobligacion SET descripcion=  '" + txtDescripcion.Text + "',estatus=1 WHERE idTipoObligacion=" + straux;
+                        Conexion.RegistrarLog("Modifico tipo de obligacion " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE tipoobligacion SET  estatus= 0 WHERE idTipoObligacion= " + straux;
-                    Conexion.RegistrarLog("Elimino tipo de obligacion " + txtDescripcion.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE tipoobligacion SET  estatus= 0 WHERE idTipoObligacion= " + straux;
+                        Conexion.RegistrarLog("Elimino tipo de obligacion " + txtDescripcion.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }

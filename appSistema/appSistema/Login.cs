@@ -86,28 +86,25 @@ namespace appSistema
             
         }
 
-        private void Login_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsDigit(e.KeyChar)) && (e.KeyChar == (char)Keys.Enter))
-            {
-                btnAceptar_Click( sender,  e);
-                e.Handled = true;
-                return;
-            }
-        }
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-       
-       
-           
-           
-         
-
+        private void txtPassword_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                btnAceptar_Click(sender, e);
+            }
         }
+
+        private void txtUsuario_KeyDown(object sender, KeyEventArgs e)
+        {
+            txtPassword_KeyDown(sender,e);
+        }
+    }
 
     }
 

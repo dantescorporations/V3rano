@@ -59,7 +59,20 @@ namespace appSistema
                 Deshabilitar();
                 string query = "SELECT idEmpleado, nombre FROM empleado WHERE estatus=1";
                 Conexion.LlenarComboBox(cboEncargado, query);
-   
+                if (cboEncargado.Items.Count == 0)
+                {
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Encargados, Desea agregar un Encargado", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+                        
+                    }
+                    else
+                    {
+
+                    }
+                }
+
 
             }
             catch (Exception)
@@ -92,8 +105,8 @@ namespace appSistema
         }
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            
-               
+
+           
 
                 if (btnInsertarPresionado)
                 {
@@ -109,13 +122,24 @@ namespace appSistema
                 }
                 if (btnModificarPresionado)
                 {
+                DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                if (dialogresult == DialogResult.Yes)
+                {
                     string linea;
 
                     linea = "UPDATE departamento SET clave='" + txtClave.Text + "', nombre='" + txtNombre.Text + "', extencion='" + txtExtencion.Text + "', encargado=" + cboEncargado.SelectedValue + " WHERE idDepartamento=" + straux;
                     Conexion.RegistrarLog("Modifico departamento " + txtClave.Text);
                     Conexion.Insertar(linea);
                 }
-                if (btnEliminarPresionado)
+                else
+                {
+                    return;
+                }
+                }
+            if (btnEliminarPresionado)
+            {
+                DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                if (dialogresult == DialogResult.Yes)
                 {
                     string linea;
 
@@ -124,6 +148,11 @@ namespace appSistema
                     Conexion.Insertar(linea);
                     Limpiar();
                 }
+                else
+                {
+                    return;
+                }
+            }
                 BtnCancelar_Click(sender, e);
             
            

@@ -54,7 +54,20 @@ namespace appSistema
               
                 Conexion.LlenarComboBox(cboTipoGasto, query);
                 Conexion.LlenarComboBox(cboEmpleado, query2);
-               
+           
+                if (cboTipoGasto.Items.Count == 0)
+                {
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Tipo de Gastos, Desea agregar un Tipo de Gasto", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+
+                      
+                    }
+                    else
+                    {
+                    }
+                }
 
             }
             catch (Exception)
@@ -149,19 +162,33 @@ namespace appSistema
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE gasto SET monto='" + txtImporte.Text + "', estatus='1', idEmpleado='" + cboEmpleado.SelectedValue + "', idTipoGasto='" + cboTipoGasto.SelectedValue + "' WHERE idGasto= " + straux;
-                    Conexion.RegistrarLog("Modifico importe ");
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE gasto SET monto='" + txtImporte.Text + "', estatus='1', idEmpleado='" + cboEmpleado.SelectedValue + "', idTipoGasto='" + cboTipoGasto.SelectedValue + "' WHERE idGasto= " + straux;
+                        Conexion.RegistrarLog("Modifico importe ");
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE gasto SET  estatus= 0 WHERE idGasto= " + straux;
-                    Conexion.RegistrarLog("Elimino importe ");
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE gasto SET  estatus= 0 WHERE idGasto= " + straux;
+                        Conexion.RegistrarLog("Elimino importe ");
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }

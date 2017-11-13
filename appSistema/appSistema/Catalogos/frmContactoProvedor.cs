@@ -27,7 +27,7 @@ namespace appSistema
             mskExtension.Enabled = true;
             txtAP.Enabled = true;
             txtAM.Enabled = true;
-            cboEmpresa.Enabled = true;
+            cboProveedor.Enabled = true;
             cboTipoContacto.Enabled = true;
         }
         public void Deshabilitar()
@@ -38,7 +38,7 @@ namespace appSistema
             mskExtension.Enabled = false;
             txtAP.Enabled = false;
             txtAM.Enabled = false;
-            cboEmpresa.Enabled = false;
+            cboProveedor.Enabled = false;
             cboTipoContacto.Enabled = false;
         }
 
@@ -50,7 +50,7 @@ namespace appSistema
             mskExtension.Text = "";
             txtAP.Text = "";
             txtAM.Text = "";
-            cboEmpresa.Text = "";
+            cboProveedor.Text = "";
             cboTipoContacto.Text = "";
         }
         private void frmContactoProvedor_Load(object sender, EventArgs e)
@@ -62,8 +62,34 @@ namespace appSistema
                 string query2 = "SELECT idProvedor, empresa FROM provedor WHERE estatus=1";
 
                 Conexion.LlenarComboBox(cboTipoContacto, query);
-                Conexion.LlenarComboBox(cboEmpresa, query2);
+                Conexion.LlenarComboBox(cboProveedor, query2);
+                if (cboTipoContacto.Items.Count == 0)
+                {
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Tipo de Contactos, Desea agregar un Tipo de Contacto", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
 
+
+                      
+                    }
+                    else
+                    {
+                     
+                    }
+                }
+                if (cboProveedor.Items.Count == 0)
+                {
+                    DialogResult dialogresult = MessageBox.Show("No existe registros de Empresas, Desea agregar una Empresa", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+
+
+                    }
+                    else
+                    {
+                   
+                    }
+                }
 
             }
             catch (Exception)
@@ -89,26 +115,40 @@ namespace appSistema
                     }
                     string linea;
 
-                    linea = "INSERT INTO contactoproveedor(nombre, a_Paterno, a_Materno, telefono, extencion, estatus, idProveedor, idTipoContactoProveedor,idContactoP) VALUES ('" + txtNombre.Text + "', '" + txtAP.Text + "','" + txtAM.Text + "', '" + maskTelefono.Text + "', '" + mskExtension.Text + "',1, '" + cboEmpresa.SelectedValue + "', '" + cboTipoContacto.SelectedValue + "', '" + txtClave.Text + "')";
+                    linea = "INSERT INTO contactoproveedor(nombre, a_Paterno, a_Materno, telefono, extencion, estatus, clave, idTipoContactoProveedor,idContactoP) VALUES ('" + txtNombre.Text + "', '" + txtAP.Text + "','" + txtAM.Text + "', '" + maskTelefono.Text + "', '" + mskExtension.Text + "',1, '" + cboProveedor.SelectedValue + "', '" + cboTipoContacto.SelectedValue + "', '" + txtClave.Text + "')";
                     Conexion.RegistrarLog("Inserto contacto proveedor " + txtClave.Text);
                     Conexion.Insertar(linea);
                 }
                 if (btnModificarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE contactoproveedor SET nombre='" + txtNombre.Text + "', a_Paterno='" + txtAP.Text + "', a_Materno='" + txtAM.Text + "', telefono='" + maskTelefono.Text + "', extencion='" + mskExtension.Text + "', estatus='1', idCliente='" + cboEmpresa.ValueMember + "', idTipoContactoCliente='" + cboEmpresa.ValueMember + "', clave='" + txtClave.Text + "' WHERE idContactoP= " + straux;
-                    Conexion.RegistrarLog("Modifico contacto proveedor " + txtClave.Text);
-                    Conexion.Insertar(linea);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE contactoproveedor SET nombre='" + txtNombre.Text + "', a_Paterno='" + txtAP.Text + "', a_Materno='" + txtAM.Text + "', telefono='" + maskTelefono.Text + "', extencion='" + mskExtension.Text + "', idProveedor='" + cboProveedor.SelectedValue + "', idTipoContactoProveedor='" + cboProveedor.SelectedValue + "', clave='" + txtClave.Text + "' WHERE idContactoP= " + straux;
+                        Conexion.RegistrarLog("Modifico contacto proveedor " + txtClave.Text);
+                        Conexion.Insertar(linea);
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 if (btnEliminarPresionado)
                 {
                     string linea;
-
-                    linea = "UPDATE contactoproveedor SET  estatus= 0 WHERE idContactoProveedor= " + straux;
-                    Conexion.RegistrarLog("Elimino contacto proveedor " + txtClave.Text);
-                    Conexion.Insertar(linea);
-                    Limpiar();
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
+                    if (dialogresult == DialogResult.Yes)
+                    {
+                        linea = "UPDATE contactoproveedor SET  estatus= 0 WHERE idContactoProveedor= " + straux;
+                        Conexion.RegistrarLog("Elimino contacto proveedor " + txtClave.Text);
+                        Conexion.Insertar(linea);
+                        Limpiar();
+                    }
+                    else
+                    {
+                        return;
+                    }
                 }
                 BtnCancelar_Click(sender, e);
             }
@@ -149,8 +189,8 @@ namespace appSistema
 
         private void btnBuscarPlan_Click(object sender, EventArgs e)
         {
-            try
-            {
+            //try
+            //{
                 frmBuscar frm = new frmBuscar();
                 frm.Consulta = "SELECT * FROM vista_contactoproveedor";
                 frm.ShowDialog();
@@ -166,15 +206,16 @@ namespace appSistema
                 txtAM.Text = dr.ItemArray[3].ToString();
                 maskTelefono.Text = dr.ItemArray[4].ToString();
                 mskExtension.Text = dr.ItemArray[5].ToString();
-                cboEmpresa.ValueMember = dr.ItemArray[7].ToString();
-                cboTipoContacto.ValueMember = dr.ItemArray[8].ToString();
+                cboProveedor.SelectedValue = dr.ItemArray[7].ToString();
+                cboTipoContacto.SelectedValue = dr.ItemArray[8].ToString();
+           
           
-            }
-            catch (Exception)
-            {
+           // }
+            //catch (Exception)
+            //{
 
-                return;
-            }
+            //    return;
+            //}
 
             //MessageBox.Show(straux);
         }

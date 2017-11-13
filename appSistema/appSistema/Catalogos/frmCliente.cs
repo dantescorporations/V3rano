@@ -146,7 +146,7 @@ namespace appSistema
                 }        
                 if (btnModificarPresionado)
                 {
-                    DialogResult dialogresult = MessageBox.Show("Realmente desea Modificar El Empleado Seleccionado", "Mensaje", MessageBoxButtons.YesNo);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)
                     {
                         string linea;
@@ -163,7 +163,7 @@ namespace appSistema
                 if (btnEliminarPresionado)
                 {
 
-                    DialogResult dialogresult = MessageBox.Show("Realmente desea Eliminar El Empleado Seleccionado", "Mensaje", MessageBoxButtons.YesNo);
+                    DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)
                     {
                         string linea;
