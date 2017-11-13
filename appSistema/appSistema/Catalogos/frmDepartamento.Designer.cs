@@ -196,7 +196,7 @@
             // 
             this.btnBuscarPlan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnBuscarPlan.Image = ((System.Drawing.Image)(resources.GetObject("btnBuscarPlan.Image")));
-            this.btnBuscarPlan.Location = new System.Drawing.Point(88, 53);
+            this.btnBuscarPlan.Location = new System.Drawing.Point(91, 75);
             this.btnBuscarPlan.Name = "btnBuscarPlan";
             this.btnBuscarPlan.Size = new System.Drawing.Size(32, 32);
             this.btnBuscarPlan.TabIndex = 67;
