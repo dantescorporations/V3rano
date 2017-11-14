@@ -56,7 +56,6 @@
             this.gpBAcciones = new System.Windows.Forms.GroupBox();
             this.gpBConsultas = new System.Windows.Forms.GroupBox();
             this.gpBBuscar = new System.Windows.Forms.GroupBox();
-            this.btnBsr = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gpBAcciones.SuspendLayout();
             this.gpBConsultas.SuspendLayout();
@@ -87,7 +86,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.label3.Location = new System.Drawing.Point(42, 309);
+            this.label3.Location = new System.Drawing.Point(42, 302);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(47, 16);
             this.label3.TabIndex = 2;
@@ -97,7 +96,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.label4.Location = new System.Drawing.Point(40, 264);
+            this.label4.Location = new System.Drawing.Point(40, 257);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 16);
             this.label4.TabIndex = 3;
@@ -117,7 +116,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.label6.Location = new System.Drawing.Point(10, 353);
+            this.label6.Location = new System.Drawing.Point(10, 346);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(85, 16);
             this.label6.TabIndex = 5;
@@ -145,7 +144,7 @@
             // 
             // mskCP
             // 
-            this.mskCP.Location = new System.Drawing.Point(99, 346);
+            this.mskCP.Location = new System.Drawing.Point(99, 339);
             this.mskCP.Mask = "99999";
             this.mskCP.Name = "mskCP";
             this.mskCP.Size = new System.Drawing.Size(100, 23);
@@ -182,21 +181,20 @@
             // 
             // txtColonia
             // 
-            this.txtColonia.Location = new System.Drawing.Point(99, 264);
+            this.txtColonia.Location = new System.Drawing.Point(99, 257);
             this.txtColonia.Name = "txtColonia";
             this.txtColonia.Size = new System.Drawing.Size(100, 23);
             this.txtColonia.TabIndex = 15;
             // 
             // txtCiudad
             // 
-            this.txtCiudad.Location = new System.Drawing.Point(99, 309);
+            this.txtCiudad.Location = new System.Drawing.Point(99, 302);
             this.txtCiudad.Name = "txtCiudad";
             this.txtCiudad.Size = new System.Drawing.Size(100, 23);
             this.txtCiudad.TabIndex = 16;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.btnBsr);
             this.groupBox1.Controls.Add(this.msktxtNumero);
             this.groupBox1.Controls.Add(this.txtDescripcion);
             this.groupBox1.Controls.Add(this.txtCiudad);
@@ -346,16 +344,6 @@
             this.gpBBuscar.TabIndex = 65;
             this.gpBBuscar.TabStop = false;
             // 
-            // btnBsr
-            // 
-            this.btnBsr.Location = new System.Drawing.Point(97, 235);
-            this.btnBsr.Name = "btnBsr";
-            this.btnBsr.Size = new System.Drawing.Size(102, 23);
-            this.btnBsr.TabIndex = 66;
-            this.btnBsr.Text = "Buscar Entidad";
-            this.btnBsr.UseVisualStyleBackColor = true;
-            this.btnBsr.Click += new System.EventHandler(this.btnBsr_Click);
-            // 
             // frmAlmacen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -415,6 +403,5 @@
         private System.Windows.Forms.GroupBox gpBConsultas;
         private System.Windows.Forms.GroupBox gpBBuscar;
         private System.Windows.Forms.MaskedTextBox msktxtNumero;
-        private System.Windows.Forms.Button btnBsr;
     }
 }

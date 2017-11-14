@@ -222,11 +222,5 @@ namespace appSistema
             btnModificarPresionado = false;
             btnEliminarPresionado = false;
         }
-
-        private void btnBsr_Click(object sender, EventArgs e)
-        {
-            frmCPostales post = new frmCPostales();
-            post.ShowDialog();
-        }
     }
 }
