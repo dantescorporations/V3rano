@@ -7,5 +7,6 @@ namespace appSistema
 {
     class Class2
     {
+        string hola = "";
     }
 }
