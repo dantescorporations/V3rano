@@ -56,6 +56,7 @@
             this.gpBAcciones = new System.Windows.Forms.GroupBox();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.gpBConsultas = new System.Windows.Forms.GroupBox();
+            this.btnBsr = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gpBBuscar.SuspendLayout();
             this.gpBAcciones.SuspendLayout();
@@ -128,6 +129,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnBsr);
             this.groupBox1.Controls.Add(this.mskTelefono);
             this.groupBox1.Controls.Add(this.txtEstado);
             this.groupBox1.Controls.Add(this.label8);
@@ -325,6 +327,16 @@
             this.gpBConsultas.TabIndex = 70;
             this.gpBConsultas.TabStop = false;
             // 
+            // btnBsr
+            // 
+            this.btnBsr.Location = new System.Drawing.Point(75, 129);
+            this.btnBsr.Name = "btnBsr";
+            this.btnBsr.Size = new System.Drawing.Size(102, 23);
+            this.btnBsr.TabIndex = 73;
+            this.btnBsr.Text = "Buscar Entidad";
+            this.btnBsr.UseVisualStyleBackColor = true;
+            this.btnBsr.Click += new System.EventHandler(this.btnBsr_Click);
+            // 
             // frmProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -384,5 +396,6 @@
         private System.Windows.Forms.GroupBox gpBAcciones;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.GroupBox gpBConsultas;
+        private System.Windows.Forms.Button btnBsr;
     }
 }

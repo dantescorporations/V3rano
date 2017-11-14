@@ -373,5 +373,11 @@ namespace appSistema
             btnInsertarPresionado = false;
             btnModificarPresionado = false;
         }
+
+        private void btnBsr_Click(object sender, EventArgs e)
+        {
+            frmCPostales post = new frmCPostales();
+            post.ShowDialog();
+        }
     }
 }

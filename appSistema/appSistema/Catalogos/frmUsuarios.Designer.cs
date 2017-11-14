@@ -71,6 +71,7 @@
             this.btnAceptar = new System.Windows.Forms.Button();
             this.gpBBuscar = new System.Windows.Forms.GroupBox();
             this.grpEliminar = new System.Windows.Forms.GroupBox();
+            this.btnBsr = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gpBConsultas.SuspendLayout();
             this.gpBAcciones.SuspendLayout();
@@ -132,6 +133,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnBsr);
             this.groupBox1.Controls.Add(this.msktxtNumero);
             this.groupBox1.Controls.Add(this.txtTelefono);
             this.groupBox1.Controls.Add(this.txtRFC);
@@ -487,6 +489,16 @@
             this.grpEliminar.TabIndex = 44;
             this.grpEliminar.TabStop = false;
             // 
+            // btnBsr
+            // 
+            this.btnBsr.Location = new System.Drawing.Point(656, 112);
+            this.btnBsr.Name = "btnBsr";
+            this.btnBsr.Size = new System.Drawing.Size(102, 23);
+            this.btnBsr.TabIndex = 74;
+            this.btnBsr.Text = "Buscar Entidad";
+            this.btnBsr.UseVisualStyleBackColor = true;
+            this.btnBsr.Click += new System.EventHandler(this.btnBsr_Click);
+            // 
             // frmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -562,5 +574,6 @@
         private System.Windows.Forms.GroupBox gpBBuscar;
         private System.Windows.Forms.GroupBox grpEliminar;
         private System.Windows.Forms.MaskedTextBox msktxtNumero;
+        private System.Windows.Forms.Button btnBsr;
     }
 }
