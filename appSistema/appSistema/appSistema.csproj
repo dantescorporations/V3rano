@@ -79,6 +79,13 @@
       <DependentUpon>frmTipoContactoProveedor.cs</DependentUpon>
     </Compile>
     <Compile Include="Conexion.cs" />
+    <Compile Include="CpostalesMdos.cs" />
+    <Compile Include="frmCPostales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCPostales.Designer.cs">
+      <DependentUpon>frmCPostales.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMensaje.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -344,6 +351,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Catalogos\frmTipoContactoProveedor.resx">
       <DependentUpon>frmTipoContactoProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCPostales.resx">
+      <DependentUpon>frmCPostales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMensaje.resx">
       <DependentUpon>frmMensaje.cs</DependentUpon>

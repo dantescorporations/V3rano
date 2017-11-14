@@ -15,11 +15,14 @@ namespace appSistema.Catalogos
         {
             InitializeComponent();
         }
-
-       
+        
         bool btnInsertarPresionado = false;
         bool btnModificarPresionado = false;
         bool btnEliminarPresionado = false;
+        public static int Estado;
+        public static int Municipio;
+        public static int colonia;
+        public static int codigopost;
         string straux;
 
         public void Habilitar()
@@ -110,7 +113,7 @@ namespace appSistema.Catalogos
         public bool Validar()
         {
 
-            if ((txtClave.Text == "") || (txtNombre.Text == "") || (txtNombre.Text == "") || (txtCalle.Text == "") || (txtCiudad.Text == "") || (txtColonia.Text == ""))
+            if ((txtClave.Text == "") || (txtNombre.Text == "") || (txtNombre.Text == "") || (txtCalle.Text == ""))
             {
                 MessageBox.Show("Faltan Llenar campos por llenar");
                 return true;
@@ -131,7 +134,7 @@ namespace appSistema.Catalogos
                 {
                     string linea;
 
-                    linea = "INSERT INTO almacen(clave, nombre, descripcion, estatus, calle, numero, colonia, cp, ciudad) VALUES ('" + txtClave.Text + "', '" + txtNombre.Text + "', '" + txtDescripcion.Text + "', 1 , '" + txtCalle.Text + "', " + msktxtNumero.Text + ", '" + txtColonia.Text + "', '" + mskCP.Text + "',  '" + txtCiudad.Text + "')";
+                    linea = "INSERT INTO `almacen`(`clave`, `nombre`, `descripcion`, `calle`, `numero`, `colonia`, `ciudad`, `cp`, `idEstado`, `estatus`) VALUES ('" + txtClave.Text + "', '" + txtNombre.Text + "', '" + txtDescripcion.Text + "', '" + txtCalle.Text + "', " + msktxtNumero.Text + ", '" + colonia + "', '" + Municipio + "',  '" + codigopost + "',  '" + Estado + "', 1);";
                     Conexion.RegistrarLog("insert en  almacen " + txtDescripcion.Text);
                     Conexion.Insertar(linea);
                   
@@ -186,7 +189,7 @@ namespace appSistema.Catalogos
 
         private void btnModificar_Click(object sender, EventArgs e)
         {
-            if (Conexion.ValidarRegistro("SELECT * FROM almacen WHERE estatus = 1"))
+            if (Conexion.ValidarRegistro("SELECT A.clave,A.nombre,A.Descripcion,A.calle,A.numero,C.Colonia,M.Municipio,C.`Codigo postal` FROM almacen A inner join colonia C on A.colonia = C.idMunicipio inner join municipio M on A.ciudad = M.idMunicipio inner join estado E on A.idEstado = E.idEstado where A.idEstado = M.idEstado "))
             {
                 btnModificarPresionado = true;
                 Habilitar();
@@ -230,6 +233,12 @@ namespace appSistema.Catalogos
             btnModificarPresionado = false;
             btnEliminarPresionado = false;
 
+        }
+
+        private void btnBsr_Click(object sender, EventArgs e)
+        {
+            frmCPostales post = new frmCPostales();
+            post.ShowDialog();
         }
     }
 }
