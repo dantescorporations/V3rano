@@ -78,7 +78,7 @@
     <Compile Include="Catalogos\frmTipoContactoProveedor.Designer.cs">
       <DependentUpon>frmTipoContactoProveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class2.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="CpostalesMdos.cs" />
     <Compile Include="frmCPostales.cs">

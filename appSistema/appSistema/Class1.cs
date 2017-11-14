@@ -5,8 +5,8 @@ using System.Text;
 
 namespace appSistema
 {
-    class Class2
+    class Class1
     {
-        string hola = "";
+        //dadawdwadawdawd
     }
 }
