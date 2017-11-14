@@ -10,7 +10,7 @@ using appSistema.Módulos;
 namespace appSistema
 {
     static class Conexion
-    {
+    {//vbbn
         private static MySqlConnection con = new MySqlConnection("server=127.0.0.1; database=pymes; Uid=root; pwd=;");
         public static string[] arr;
 
