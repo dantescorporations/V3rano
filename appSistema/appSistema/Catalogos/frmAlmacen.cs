@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using appSistema;
 
 namespace appSistema.Catalogos
 {
@@ -32,10 +33,13 @@ namespace appSistema.Catalogos
             txtNombre.Enabled = true;
             txtCalle.Enabled = true;
             msktxtNumero.Enabled = true;
-            txtColonia.Enabled = true;
-            txtColonia.Enabled = true;
-            txtCiudad.Enabled = true;
-            mskCP.Enabled = true;
+            txtColonia.Visible = false;
+            txtCiudad.Visible = false;
+            mskCP.Visible = false;
+            label4.Visible = false;
+            label3.Visible = false;
+            label6.Visible = false;
+            btnBsr.Enabled = true;
           
         }
         public void Deshabilitar()
@@ -48,6 +52,7 @@ namespace appSistema.Catalogos
             txtColonia.Enabled = false;
             txtCiudad.Enabled = false;
             mskCP.Enabled = false;
+            btnBsr.Enabled = false;
         }
 
         public void Limpiar()
@@ -73,15 +78,20 @@ namespace appSistema.Catalogos
                     return;
 
                 DataRow dr = Conexion.ObtenerDatos("select * from almacen where idAlmacen =  '" + straux + "'");
+                
 
-                txtClave.Text = dr.ItemArray[9].ToString();
+                txtClave.Text = dr.ItemArray[1].ToString();
                 txtDescripcion.Text = dr.ItemArray[2].ToString();
-                txtNombre.Text = dr.ItemArray[1].ToString();
+                txtNombre.Text = dr.ItemArray[3].ToString();
                 txtCalle.Text = dr.ItemArray[4].ToString();
                 msktxtNumero.Text = dr.ItemArray[5].ToString();
-                txtColonia.Text = dr.ItemArray[6].ToString();
-                txtCiudad.Text = dr.ItemArray[8].ToString();
-                mskCP.Text = dr.ItemArray[7].ToString();
+                txtColonia.Visible = true;
+                txtCiudad.Visible = true;
+                mskCP.Visible = true;
+                label4.Visible = true;
+                label3.Visible = true;
+                label6.Visible = true;
+                actu();
             }
             catch (Exception)
             {
@@ -90,7 +100,21 @@ namespace appSistema.Catalogos
             }
         
         }
+        public void actu()
+        {
+            DataRow ds = Conexion.ObtenerDatos("SELECT C.Colonia,M.Municipio,C.`Codigo postal` " +
+                       "FROM almacen A inner join colonia C on A.colonia = C.idMunicipio " +
+                       "inner join municipio M on A.ciudad = M.idMunicipio " +
+                       "inner join estado E on A.idEstado = E.idEstado " +
+                       "where C.Estado = M.idEstado and  A.idAlmacen = '" + straux + "'");
+            txtColonia.Text = ds.ItemArray[0].ToString();
+            txtCiudad.Text = ds.ItemArray[1].ToString();
+            mskCP.Text = ds.ItemArray[2].ToString();
+            txtColonia.Enabled = false;
+            txtCiudad.Enabled = false;
+            mskCP.Enabled = false;
 
+        }
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             if (Conexion.ValidarRegistro("SELECT * FROM almacen WHERE estatus = 1"))
@@ -146,7 +170,7 @@ namespace appSistema.Catalogos
                     {
                         string linea;
 
-                        linea = "UPDATE almacen SET nombre='" + txtNombre.Text + "', descripcion='" + txtDescripcion.Text + "', estatus='1', calle='" + txtCalle.Text + "', numero='" + msktxtNumero.Text + "', colonia='" + txtColonia.Text + "', cp='" + mskCP.Text + "', ciudad='" + txtCiudad.Text + "', clave='" + txtClave.Text + "' WHERE idAlmacen=" + straux;
+                        linea = "UPDATE almacen SET nombre='" + txtNombre.Text + "', descripcion='" + txtDescripcion.Text + "', estatus='1', calle='" + txtCalle.Text + "', numero='" + msktxtNumero.Text + "', colonia='" + colonia + "', cp='" + codigopost + "', ciudad='" + Municipio + "', clave='" + txtClave.Text + "' WHERE idAlmacen=" + straux;
                         Conexion.RegistrarLog("modifico almacen a: " + txtDescripcion.Text);
                         Conexion.Insertar(linea);
                     }
@@ -218,6 +242,12 @@ namespace appSistema.Catalogos
 
             gpBBuscar.Visible = false;
             gpBAcciones.Visible = false;
+            txtColonia.Visible = false;
+            txtCiudad.Visible = false;
+            mskCP.Visible = false;
+            label4.Visible = false;
+            label3.Visible = false;
+            label6.Visible = false;
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
@@ -237,8 +267,16 @@ namespace appSistema.Catalogos
 
         private void btnBsr_Click(object sender, EventArgs e)
         {
-            frmCPostales post = new frmCPostales();
-            post.ShowDialog();
+            try
+            {
+                frmCPostales post = new frmCPostales();
+                post.ShowDialog();
+            }
+            catch (Exception)
+            {
+
+                return;
+            }
         }
     }
 }

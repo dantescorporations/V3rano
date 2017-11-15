@@ -1104,8 +1104,6 @@ C:\Users\Hara\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema
 C:\Users\Hara\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\bin\Debug\appSistema.exe
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\bin\Debug\appSistema.pdb
-C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\bin\Debug\MySql.Data.xml
-C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmAlmacen.resources
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmSolicitarCotizacion.resources
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.Catalogos.frmTipoContactoCliente.resources

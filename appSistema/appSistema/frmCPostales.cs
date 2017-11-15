@@ -72,7 +72,7 @@ namespace appSistema
                     met.LlenarComboBoxPostales(cboColonias, query);
                     //frmAlmacen.Municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
                     cboColonias.Enabled = true;
-                   
+
                 }
             }
         }
@@ -98,14 +98,11 @@ namespace appSistema
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Convert.ToInt32(cboEstados.SelectedValue).ToString() 
-                +", "+ Convert.ToInt32(cboMunicipios.SelectedValue).ToString() + ", "
-                + Convert.ToInt32(lblCP.Text));
-
             frmAlmacen.Estado = Convert.ToInt32(cboEstados.SelectedValue);
             frmAlmacen.Municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
             frmAlmacen.colonia = Convert.ToInt32(colonia);
             frmAlmacen.codigopost = Convert.ToInt32(lblCP.Text);
+            this.Close();
         }
     }
 }
