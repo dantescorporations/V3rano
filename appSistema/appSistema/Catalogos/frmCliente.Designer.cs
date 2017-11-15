@@ -60,6 +60,7 @@
             this.gpBAcciones = new System.Windows.Forms.GroupBox();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.gpBConsultas = new System.Windows.Forms.GroupBox();
+            this.btnBsr = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gpBBuscar.SuspendLayout();
             this.gpBAcciones.SuspendLayout();
@@ -68,6 +69,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnBsr);
             this.groupBox1.Controls.Add(this.txtnumero);
             this.groupBox1.Controls.Add(this.mskTelefono);
             this.groupBox1.Controls.Add(this.label11);
@@ -92,7 +94,7 @@
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(468, 338);
-            this.groupBox1.TabIndex = 42;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Cliente";
             // 
@@ -101,7 +103,7 @@
             this.txtnumero.Location = new System.Drawing.Point(141, 190);
             this.txtnumero.Name = "txtnumero";
             this.txtnumero.Size = new System.Drawing.Size(76, 23);
-            this.txtnumero.TabIndex = 49;
+            this.txtnumero.TabIndex = 6;
             // 
             // mskTelefono
             // 
@@ -109,7 +111,7 @@
             this.mskTelefono.Mask = "(999)000-0000";
             this.mskTelefono.Name = "mskTelefono";
             this.mskTelefono.Size = new System.Drawing.Size(100, 23);
-            this.mskTelefono.TabIndex = 48;
+            this.mskTelefono.TabIndex = 4;
             // 
             // label11
             // 
@@ -165,14 +167,14 @@
             this.txtCalle.Location = new System.Drawing.Point(141, 164);
             this.txtCalle.Name = "txtCalle";
             this.txtCalle.Size = new System.Drawing.Size(183, 23);
-            this.txtCalle.TabIndex = 23;
+            this.txtCalle.TabIndex = 5;
             // 
             // txtNC
             // 
             this.txtNC.Location = new System.Drawing.Point(141, 108);
             this.txtNC.Name = "txtNC";
             this.txtNC.Size = new System.Drawing.Size(317, 23);
-            this.txtNC.TabIndex = 22;
+            this.txtNC.TabIndex = 3;
             // 
             // label10
             // 
@@ -259,14 +261,14 @@
             this.txtClave.Location = new System.Drawing.Point(141, 40);
             this.txtClave.Name = "txtClave";
             this.txtClave.Size = new System.Drawing.Size(100, 23);
-            this.txtClave.TabIndex = 2;
+            this.txtClave.TabIndex = 1;
             // 
             // txtRS
             // 
             this.txtRS.Location = new System.Drawing.Point(141, 72);
             this.txtRS.Name = "txtRS";
             this.txtRS.Size = new System.Drawing.Size(317, 23);
-            this.txtRS.TabIndex = 5;
+            this.txtRS.TabIndex = 2;
             // 
             // btnEliminar
             // 
@@ -274,7 +276,7 @@
             this.btnEliminar.Location = new System.Drawing.Point(30, 113);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
-            this.btnEliminar.TabIndex = 54;
+            this.btnEliminar.TabIndex = 11;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
@@ -285,7 +287,7 @@
             this.btnGuardar.Location = new System.Drawing.Point(30, 19);
             this.btnGuardar.Name = "btnGuardar";
             this.btnGuardar.Size = new System.Drawing.Size(84, 37);
-            this.btnGuardar.TabIndex = 53;
+            this.btnGuardar.TabIndex = 13;
             this.btnGuardar.Text = "Aceptar";
             this.btnGuardar.UseVisualStyleBackColor = false;
             this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
@@ -296,7 +298,7 @@
             this.btnInsertar.Location = new System.Drawing.Point(30, 40);
             this.btnInsertar.Name = "btnInsertar";
             this.btnInsertar.Size = new System.Drawing.Size(75, 23);
-            this.btnInsertar.TabIndex = 51;
+            this.btnInsertar.TabIndex = 9;
             this.btnInsertar.Text = "Insertar";
             this.btnInsertar.UseVisualStyleBackColor = false;
             this.btnInsertar.Click += new System.EventHandler(this.btnInsertar_Click);
@@ -307,7 +309,7 @@
             this.btnModificar.Location = new System.Drawing.Point(30, 69);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
-            this.btnModificar.TabIndex = 52;
+            this.btnModificar.TabIndex = 10;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
             this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
@@ -328,7 +330,7 @@
             this.btnBuscarPlan.Location = new System.Drawing.Point(81, 40);
             this.btnBuscarPlan.Name = "btnBuscarPlan";
             this.btnBuscarPlan.Size = new System.Drawing.Size(32, 32);
-            this.btnBuscarPlan.TabIndex = 55;
+            this.btnBuscarPlan.TabIndex = 16;
             this.btnBuscarPlan.UseVisualStyleBackColor = true;
             this.btnBuscarPlan.Click += new System.EventHandler(this.btnBuscarPlan_Click);
             // 
@@ -339,7 +341,7 @@
             this.gpBBuscar.Location = new System.Drawing.Point(769, 20);
             this.gpBBuscar.Name = "gpBBuscar";
             this.gpBBuscar.Size = new System.Drawing.Size(237, 145);
-            this.gpBBuscar.TabIndex = 72;
+            this.gpBBuscar.TabIndex = 15;
             this.gpBBuscar.TabStop = false;
             this.gpBBuscar.Visible = false;
             // 
@@ -350,7 +352,7 @@
             this.gpBAcciones.Location = new System.Drawing.Point(497, 205);
             this.gpBAcciones.Name = "gpBAcciones";
             this.gpBAcciones.Size = new System.Drawing.Size(256, 115);
-            this.gpBAcciones.TabIndex = 71;
+            this.gpBAcciones.TabIndex = 12;
             this.gpBAcciones.TabStop = false;
             this.gpBAcciones.Visible = false;
             // 
@@ -360,7 +362,7 @@
             this.BtnCancelar.Location = new System.Drawing.Point(30, 62);
             this.BtnCancelar.Name = "BtnCancelar";
             this.BtnCancelar.Size = new System.Drawing.Size(84, 46);
-            this.BtnCancelar.TabIndex = 43;
+            this.BtnCancelar.TabIndex = 14;
             this.BtnCancelar.Text = "Cancelar";
             this.BtnCancelar.UseVisualStyleBackColor = false;
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
@@ -373,8 +375,18 @@
             this.gpBConsultas.Location = new System.Drawing.Point(497, 20);
             this.gpBConsultas.Name = "gpBConsultas";
             this.gpBConsultas.Size = new System.Drawing.Size(266, 145);
-            this.gpBConsultas.TabIndex = 70;
+            this.gpBConsultas.TabIndex = 8;
             this.gpBConsultas.TabStop = false;
+            // 
+            // btnBsr
+            // 
+            this.btnBsr.Location = new System.Drawing.Point(223, 190);
+            this.btnBsr.Name = "btnBsr";
+            this.btnBsr.Size = new System.Drawing.Size(114, 23);
+            this.btnBsr.TabIndex = 7;
+            this.btnBsr.Text = "Buscar Entidad";
+            this.btnBsr.UseVisualStyleBackColor = true;
+            this.btnBsr.Click += new System.EventHandler(this.btnBsr_Click);
             // 
             // frmCliente
             // 
@@ -439,5 +451,6 @@
         private System.Windows.Forms.GroupBox gpBAcciones;
         private System.Windows.Forms.Button BtnCancelar;
         private System.Windows.Forms.GroupBox gpBConsultas;
+        private System.Windows.Forms.Button btnBsr;
     }
 }

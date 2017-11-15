@@ -18,6 +18,10 @@ namespace appSistema
         bool btnInsertarPresionado = false;
         bool btnModificarPresionado = false;
         bool btnEliminarPresionado = false;
+        public static int estado;
+        public static int municipio;
+        public static int colonia;
+        public static int codigopost;
         string straux;
 
 
@@ -26,13 +30,15 @@ namespace appSistema
             txtClave.Enabled = true;
             txtEmpresa.Enabled = true;
             mskTelefono.Enabled = true;
-
-            txtCiudad.Enabled = true;
             txtCalle.Enabled = true;
             txtNumero.Enabled = true;
-            txtColonia.Enabled = true;
-            txtEstado.Enabled = true;
-           
+            txtColonia.Visible = false;
+            txtEstado.Visible = false;
+            txtCiudad.Visible = false;
+            label6.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            btnBsr.Enabled = true;
         }
         public void Deshabilitar()
         {
@@ -40,7 +46,7 @@ namespace appSistema
             txtClave.Enabled = false;
             txtEmpresa.Enabled = false;
             mskTelefono.Enabled = false;
-
+            btnBsr.Enabled = false;
             txtCiudad.Enabled = false;
             txtCalle.Enabled = false;
             txtNumero.Enabled = false;
@@ -79,21 +85,40 @@ namespace appSistema
                 txtClave.Text = dr.ItemArray[10].ToString();
                 txtEmpresa.Text = dr.ItemArray[1].ToString();
                 mskTelefono.Text = dr.ItemArray[2].ToString();
-                txtCiudad.Text = dr.ItemArray[6].ToString();
                 txtCalle.Text = dr.ItemArray[3].ToString();
                 txtNumero.Text = dr.ItemArray[4].ToString();
-                txtColonia.Text = dr.ItemArray[5].ToString();
-                txtEstado.Text = dr.ItemArray[7].ToString();
+                txtColonia.Visible = true;
+                txtCiudad.Visible = true;
+                txtEstado.Visible = true;
+                label6.Visible = true;
+                label8.Visible = true;
+                label9.Visible = true;
+                actua();
             }
             catch (Exception)
             {
-
                 return;
             }
-           
+        }
 
-     
-           
+        public void actua()
+        {
+            DataRow data = Conexion.ObtenerDatos("SELECT C.Colonia,M.Municipio,E.Estado,C.`Codigo postal`, P.colonia,P.estado,P.municipio " +
+                "FROM provedor P " +
+                "inner join colonia C on P.colonia = C.idMunicipio " +
+                "inner join municipio M on P.municipio = M.idMunicipio " +
+                "inner join estado E on P.Estado = E.idEstado " +
+                "where C.Estado = M.idEstado and P.idProvedor = " + straux);
+            txtColonia.Enabled = false;
+            txtEstado.Enabled = false;
+            txtCiudad.Enabled = false;
+            txtColonia.Text = data.ItemArray[0].ToString();
+            txtCiudad.Text = data.ItemArray[1].ToString();
+            txtEstado.Text = data.ItemArray[2].ToString();
+            estado = Convert.ToInt32(data.ItemArray[5].ToString());
+            municipio = Convert.ToInt32(data.ItemArray[6].ToString());
+            colonia = Convert.ToInt32(data.ItemArray[4].ToString());
+            codigopost = Convert.ToInt32(data.ItemArray[3].ToString());
         }
 
         private void btnInsertar_Click(object sender, EventArgs e)
@@ -121,7 +146,7 @@ namespace appSistema
                     }
                     string linea;
 
-                    linea = "INSERT INTO provedor(empresa,telefono,calle,numero,colonia,municipio,estado,estatus,clave)VALUES ('" + txtEmpresa.Text + "', '" + mskTelefono.Text + "','" + txtCalle.Text + "', '" + txtNumero.Text + "', '" + txtColonia.Text + "', '" + txtCiudad.Text + "', '" + txtEstado.Text + "', '1', '" + txtClave.Text + "')";
+                    linea = "INSERT INTO provedor(empresa,telefono,calle,numero,colonia,municipio,estado,estatus,clave)VALUES ('" + txtEmpresa.Text + "', '" + mskTelefono.Text + "','" + txtCalle.Text + "', '" + txtNumero.Text + "', '" + colonia + "', '" + municipio + "', '" + estado + "', '1', '" + txtClave.Text + "')";
                     Conexion.RegistrarLog("Inserto Proveedor " + txtClave.Text);
                     Conexion.Insertar(linea);
 
@@ -132,7 +157,7 @@ namespace appSistema
                     DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)
                     {
-                        linea = "UPDATE provedor SET empresa='" + txtEmpresa.Text + "', telefono='" + mskTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + txtNumero.Text + "', colonia='" + txtColonia.Text + "', municipio='" + txtCiudad.Text + "', estado='" + txtEstado.Text + "', estatus='1', clave='" + txtClave.Text + "' WHERE idProvedor= " + straux;
+                        linea = "UPDATE provedor SET empresa='" + txtEmpresa.Text + "', telefono='" + mskTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + txtNumero.Text + "', colonia='" + colonia + "', municipio='" + municipio + "', estado='" + estado + "', estatus='1', clave='" + txtClave.Text + "' WHERE idProvedor= " + straux;
                         Conexion.RegistrarLog("Modifico Proveedor " + txtClave.Text);
                         Conexion.Insertar(linea);
                     }
@@ -190,6 +215,12 @@ namespace appSistema
         private void frmProveedores_Load(object sender, EventArgs e)
         {
             Deshabilitar();
+            txtColonia.Visible = false;
+            txtEstado.Visible = false;
+            txtCiudad.Visible = false;
+            label6.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)

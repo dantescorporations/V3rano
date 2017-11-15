@@ -1157,3 +1157,4 @@ C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSist
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.pdb
 C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.frmCPostales.resources
 C:\Users\Hara\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.frmCPostales.resources
+C:\Users\Wattson\Source\Repos\V3rano\appSistema\appSistema\obj\x86\Debug\appSistema.csprojResolveAssemblyReference.cache

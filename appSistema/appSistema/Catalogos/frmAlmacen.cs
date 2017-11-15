@@ -49,22 +49,36 @@ namespace appSistema.Catalogos
             txtNombre.Enabled = false;
             txtCalle.Enabled = false;
             msktxtNumero.Enabled = false;
-            txtColonia.Enabled = false;
-            txtCiudad.Enabled = false;
-            mskCP.Enabled = false;
+            txtColonia.Visible = false;
+            txtCiudad.Visible = false;
+            mskCP.Visible = false;
+            label4.Visible = false;
+            label3.Visible = false;
+            label6.Visible = false;
             btnBsr.Enabled = false;
         }
 
         public void Limpiar()
         {
-            txtClave.Text = "";
-            txtDescripcion.Text = "";
-            txtNombre.Text = "";
-            txtCalle.Text = "";
-            msktxtNumero.Text = "";
-            txtColonia.Text = "";
-            txtCiudad.Text = "";
-            mskCP.Text = "";
+            Action<Control.ControlCollection> func = null;
+
+            func = (controls) =>
+            {
+                foreach (Control control in controls)
+                    if (control is TextBox)
+                    {
+                        (control as TextBox).Clear();
+                    }
+                    else if (control is MaskedTextBox)
+                    {
+                        (control as MaskedTextBox).Clear();
+                    }
+
+                    else
+                        func(control.Controls);
+            };
+
+            func(Controls);
         }
         private void btnBuscarPlan_Click(object sender, EventArgs e)
         {
@@ -102,7 +116,7 @@ namespace appSistema.Catalogos
         }
         public void actu()
         {
-            DataRow ds = Conexion.ObtenerDatos("SELECT C.Colonia,M.Municipio,C.`Codigo postal` " +
+            DataRow ds = Conexion.ObtenerDatos("SELECT C.Colonia,M.Municipio,C.`Codigo postal`,A.ciudad,A.colonia,A.cp,A.idEstado " +
                        "FROM almacen A inner join colonia C on A.colonia = C.idMunicipio " +
                        "inner join municipio M on A.ciudad = M.idMunicipio " +
                        "inner join estado E on A.idEstado = E.idEstado " +
@@ -113,6 +127,10 @@ namespace appSistema.Catalogos
             txtColonia.Enabled = false;
             txtCiudad.Enabled = false;
             mskCP.Enabled = false;
+            Estado = Convert.ToInt32(ds.ItemArray[6]);
+            Municipio = Convert.ToInt32(ds.ItemArray[3]);
+            colonia = Convert.ToInt32(ds.ItemArray[4]);
+            codigopost = Convert.ToInt32(ds.ItemArray[5]);
 
         }
         private void btnEliminar_Click(object sender, EventArgs e)

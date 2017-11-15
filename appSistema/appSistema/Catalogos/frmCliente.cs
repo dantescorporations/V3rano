@@ -14,6 +14,10 @@ namespace appSistema
         bool btnInsertarPresionado = false;
         bool btnModificarPresionado = false;
         bool btnEliminarPresionado = false;
+        public static int estado;
+        public static int municipio;
+        public static int colonia;
+        public static int codigopost;
         string straux;
         DataRow dr;
         public frmCliente()
@@ -29,13 +33,18 @@ namespace appSistema
             mskTelefono.Enabled = true;
             txtCalle.Enabled = true;
             txtnumero.Enabled = true;
-            txtCol.Enabled = true;
-            txtEdo.Enabled = true;
             txtCd.Enabled = true;
-
+            txtCol.Visible = false;
+            txtEdo.Visible = false;
+            txtCd.Visible = false;
+            mskCP.Visible = false;
             txtClave.Enabled = true;
             txtNC.Enabled = true;
-            mskCP.Enabled = true;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            label10.Visible = false;
+            btnBsr.Enabled = true;
         }
         public void Deshabilitar()
         {
@@ -43,28 +52,40 @@ namespace appSistema
             mskTelefono.Enabled = false;
             txtCalle.Enabled = false;
            txtnumero.Enabled = false;
-            txtCol.Enabled = false;
-            txtEdo.Enabled = false;
-            txtCd.Enabled = false;
-
             txtNC.Enabled = false;
             txtClave.Enabled = false;
-            mskCP.Enabled = false;
+            txtCol.Visible = false;
+            txtEdo.Visible = false;
+            txtCd.Visible = false;
+            mskCP.Visible = false;
+            label7.Visible = false;
+            label8.Visible = false;
+            label9.Visible = false;
+            label10.Visible = false;
+            btnBsr.Enabled = false;
         }
        
         public void Limpiar()
         {
-            txtRS.Text = "";
-            mskTelefono.Text = "";
-            txtCalle.Text = "";
-            txtnumero.Text = "";
-            txtCol.Text = "";
-            txtEdo.Text = "";
-            txtCd.Text = "";
+            Action<Control.ControlCollection> func = null;
 
-            txtClave.Text = "";
-            txtNC.Text = "";
-            mskCP.Text = "";
+            func = (controls) =>
+            {
+                foreach (Control control in controls)
+                    if (control is TextBox)
+                    {
+                        (control as TextBox).Clear();
+                    }
+                    else if (control is MaskedTextBox)
+                    {
+                        (control as MaskedTextBox).Clear();
+                    }
+
+                    else
+                        func(control.Controls);
+            };
+
+            func(Controls);
         }
 
         private void btnModificar_Click(object sender, EventArgs e)
@@ -138,7 +159,7 @@ namespace appSistema
                     }
                     string linea;
 
-                    linea = "INSERT INTO cliente(razonSocial, telefono, calle, numero, colonia, estado, municipio, estatus, nombreComercial, clave, cp) VALUES ('" + txtRS.Text + "', '" + mskTelefono.Text + "','" + txtCalle.Text + "', '" + txtnumero.Text + "', '" + txtCol.Text + "', '" + txtEdo.Text + "', '" + txtCd.Text + "', '1', '" + txtNC.Text + "', '" + txtClave.Text + "', '" + mskCP.Text + "')";
+                    linea = "INSERT INTO cliente(razonSocial, telefono, calle, numero, colonia, estado, municipio, estatus, nombreComercial, clave, cp) VALUES ('" + txtRS.Text + "', '" + mskTelefono.Text + "','" + txtCalle.Text + "', '" + txtnumero.Text + "', '" + colonia + "', '" + estado + "', '" + municipio + "', '1', '" + txtNC.Text + "', '" + txtClave.Text + "', '" + codigopost + "')";
                     Conexion.RegistrarLog("Inserto cliente " + txtClave.Text);
                     Conexion.RegistrarLog("Se registro Cliente con razon social"+txtRS.Text);
                     Conexion.Insertar(linea);
@@ -151,7 +172,7 @@ namespace appSistema
                     {
                         string linea;
 
-                        linea = "UPDATE cliente SET razonSocial='" + txtRS.Text + "', telefono='" + mskTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + txtnumero.Text + "', colonia='" + txtCol.Text + "', estado='" + txtEdo.Text + "', municipio='" + txtCd.Text + "', estatus='1', nombreComercial='" + txtNC.Text + "', clave='" + txtClave.Text + "', cp='" + mskCP.Text + "' WHERE idCliente= " + straux;
+                        linea = "UPDATE cliente SET razonSocial='" + txtRS.Text + "', telefono='" + mskTelefono.Text + "', calle='" + txtCalle.Text + "', numero='" + txtnumero.Text + "', colonia='" + colonia + "', estado='" + estado + "', municipio='" + municipio + "', estatus='1', nombreComercial='" + txtNC.Text + "', clave='" + txtClave.Text + "', cp='" + codigopost + "' WHERE idCliente= " + straux;
                         Conexion.RegistrarLog("Modifico cliente " + txtClave.Text);
                         Conexion.Insertar(linea);
                     }
@@ -201,23 +222,49 @@ namespace appSistema
                     return;
 
                 dr = Conexion.ObtenerDatos("select * from cliente where idCliente = '" + straux + "'");
-                txtClave.Text = dr.ItemArray[9].ToString();
+                txtClave.Text = dr.ItemArray[10].ToString();
                 txtRS.Text = dr.ItemArray[1].ToString();
                 mskTelefono.Text = dr.ItemArray[2].ToString();
                 txtCalle.Text = dr.ItemArray[3].ToString();
                 txtnumero.Text = dr.ItemArray[4].ToString();
-                txtCol.Text = dr.ItemArray[5].ToString();
-                txtEdo.Text = dr.ItemArray[6].ToString();
-                txtCd.Text = dr.ItemArray[7].ToString();
-                txtNC.Text = dr.ItemArray[8].ToString();
-                txtNC.Text = dr.ItemArray[10].ToString();
-                mskCP.Text = dr.ItemArray[11].ToString();
+                txtNC.Text = dr.ItemArray[9].ToString();
+                txtCol.Visible = true;
+                txtEdo.Visible = true;
+                txtCd.Visible = true;
+                mskCP.Visible = true;
+                label7.Visible = true;
+                label8.Visible = true;
+                label9.Visible = true;
+                label10.Visible = true;
+                actua();
             }
             catch (Exception)
             {
                 return;
             }
         
+        }
+        public void actua()
+        {
+            DataRow ds = Conexion.ObtenerDatos("SELECT E.Estado,C.Colonia,M.Municipio,C.`Codigo postal`,CL.colonia,CL.estado,CL.municipio,CL.cp " +
+                "FROM cliente CL " +
+                "inner join colonia C on CL.colonia = C.idMunicipio " +
+                "inner join municipio M on CL.municipio = M.idMunicipio " +
+                "inner join estado E on CL.Estado = E.idEstado " +
+                "where C.Estado = M.idEstado and CL.idCliente = " + straux);
+            txtCol.Text = ds.ItemArray[1].ToString();
+            txtEdo.Text = ds.ItemArray[0].ToString();
+            txtCd.Text = ds.ItemArray[2].ToString();
+            mskCP.Text = ds.ItemArray[3].ToString();
+            txtCol.Enabled = false;
+            txtEdo.Enabled = false;
+            txtCd.Enabled = false;
+            mskCP.Enabled = false;
+            estado = Convert.ToInt32(ds.ItemArray[5]);
+            municipio = Convert.ToInt32(ds.ItemArray[6]);
+            colonia = Convert.ToInt32(ds.ItemArray[4]);
+            codigopost = Convert.ToInt32(ds.ItemArray[7]);
+
         }
 
         private void btnEliminar_Click(object sender, EventArgs e)
@@ -246,6 +293,12 @@ namespace appSistema
             btnInsertarPresionado = false;
             btnModificarPresionado = false;
             btnEliminarPresionado = false;
+        }
+
+        private void btnBsr_Click(object sender, EventArgs e)
+        {
+            frmCPostales cPostales = new frmCPostales();
+            cPostales.ShowDialog();
         }
     }
 }

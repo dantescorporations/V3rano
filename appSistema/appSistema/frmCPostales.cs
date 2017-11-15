@@ -98,11 +98,46 @@ namespace appSistema
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            frmAlmacen.Estado = Convert.ToInt32(cboEstados.SelectedValue);
-            frmAlmacen.Municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
-            frmAlmacen.colonia = Convert.ToInt32(colonia);
-            frmAlmacen.codigopost = Convert.ToInt32(lblCP.Text);
-            this.Close();
+            cross();
+        }
+        public void cross()
+        {
+            for (int i = 0; i < Application.OpenForms.Count; i++)
+            {
+                string form = Application.OpenForms[i].ToString();
+                if (form.Contains("frmAlmacen") != false)
+                {
+                    frmAlmacen.Estado = Convert.ToInt32(cboEstados.SelectedValue);
+                    frmAlmacen.Municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
+                    frmAlmacen.colonia = Convert.ToInt32(colonia);
+                    frmAlmacen.codigopost = Convert.ToInt32(lblCP.Text);
+                    this.Close();
+                }
+                if (form.Contains("frmCliente") != false)
+                {
+                    frmCliente.estado = Convert.ToInt32(cboEstados.SelectedValue);
+                    frmCliente.municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
+                    frmCliente.colonia = Convert.ToInt32(colonia);
+                    frmCliente.codigopost = Convert.ToInt32(lblCP.Text);
+                    this.Close();
+                }
+                if (form.Contains("frmUsuarios") != false)
+                {
+                    frmUsuarios.estado = Convert.ToInt32(cboEstados.SelectedValue);
+                    frmUsuarios.municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
+                    frmUsuarios.colonia = Convert.ToInt32(colonia);
+                    frmUsuarios.codigopost = Convert.ToInt32(lblCP.Text);
+                    this.Close();
+                }
+                if (form.Contains("frmProveedores") != false)
+                {
+                    frmProveedores.estado = Convert.ToInt32(cboEstados.SelectedValue);
+                    frmProveedores.municipio = Convert.ToInt32(cboMunicipios.SelectedValue);
+                    frmProveedores.colonia = Convert.ToInt32(colonia);
+                    frmProveedores.codigopost = Convert.ToInt32(lblCP.Text);
+                    this.Close();
+                }
+            }
         }
     }
 }
