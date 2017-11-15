@@ -306,28 +306,34 @@ namespace appSistema
                 MessageBox.Show("Faltan Llenar campos");
                 return true;
             }
-           
-         dr= Conexion.ObtenerDatos("Select Usuario From empleado where Usuario='"+txtUsuario.Text+"'");
-            if (dr.ItemArray[0].ToString()==txtUsuario.Text)
+            try
             {
-                MessageBox.Show("El usuario ya esta en uso");
-                return true;
+                dr = Conexion.ObtenerDatos("Select Usuario From empleado where Usuario='" + txtUsuario.Text + "'");
+                if (dr.ItemArray[0].ToString() == txtUsuario.Text)
+                {
+                    MessageBox.Show("El usuario ya esta en uso");
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
             }
             return false;
         }
 
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-        
+            if (Validar())
+            {
+
+                return;
+            }
             try
             {      
                 if (btnInsertarPresionado)
                 {
-                    if (Validar())
-                    {
-                    
-                        return;
-                    }
+                   
 
                     string linea;
         
