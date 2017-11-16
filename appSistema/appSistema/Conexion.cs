@@ -280,6 +280,15 @@ namespace appSistema
             con.Close();
 
         }
+        public static bool ValidarEstatus(string query)
+        {
+            if (Conexion.ValidarRegistro(query))
+            {
+                return true;
+            }
+
+            return false;
+        }
 
 
     }

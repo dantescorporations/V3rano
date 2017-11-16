@@ -76,6 +76,12 @@ namespace appSistema.Catalogos
                 }
                 if (btnEliminarPresionado)
                 {
+                    if (Conexion.ValidarEstatus("SELECT * FROM contactoproveedor WHERE estatus=1 and idTipoContactoProveedor=" + straux))
+                    {
+
+                        MessageBox.Show("El Registro no puede ser Eliminado por que esta siendo usado en otros campos");
+                        return;
+                    }
                     string linea;
                     DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)

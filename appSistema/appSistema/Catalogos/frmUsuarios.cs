@@ -368,10 +368,27 @@ namespace appSistema
                 }
                 if (btnEliminarPresionado)
                 {
-                 
-                    
-                     
-                        string linea;
+                    if (Conexion.ValidarEstatus("SELECT * FROM departamento WHERE estatus=1 and encargado=" + straux))
+                    {
+
+                        MessageBox.Show("El Registro no puede ser Eliminado por que esta siendo usado en otros campos");
+                        return;
+                    }
+
+                    if (Conexion.ValidarEstatus("SELECT * FROM gasto WHERE estatus=1 and idempleado=" + straux))
+                    {
+
+                        MessageBox.Show("El Registro no puede ser Eliminado por que esta siendo usado en otros campos");
+                        return;
+                    }
+
+                    if (Conexion.ValidarEstatus("SELECT * FROM obligacion WHERE estatus=1 and idempleado=" + straux))
+                    {
+
+                        MessageBox.Show("El Registro no puede ser Eliminado por que esta siendo usado en otros campos");
+                        return;
+                    }
+                    string linea;
                     DialogResult dialogresult = MessageBox.Show("Realmente desea guardar los cambios", "Mensaje", MessageBoxButtons.YesNo);
                     if (dialogresult == DialogResult.Yes)
                     {
