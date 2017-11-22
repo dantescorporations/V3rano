@@ -302,8 +302,36 @@ namespace appSistema
 
         private void btnBsr_Click(object sender, EventArgs e)
         {
-            frmCPostales cPostales = new frmCPostales();
-            cPostales.ShowDialog();
+            try
+            {
+                frmBuscar frm = new frmBuscar();
+                frm.Consulta = "SELECT * FROM vista_entidades";
+                frm.ShowDialog();
+                straux = frm.ID;
+                if (straux.Trim() == "")
+                    return;
+
+                dr = Conexion.ObtenerDatos("select * from cliente where idCliente = '" + straux + "'");
+                txtClave.Text = dr.ItemArray[10].ToString();
+                txtRS.Text = dr.ItemArray[1].ToString();
+                mskTelefono.Text = dr.ItemArray[2].ToString();
+                txtCalle.Text = dr.ItemArray[3].ToString();
+                txtnumero.Text = dr.ItemArray[4].ToString();
+                txtNC.Text = dr.ItemArray[9].ToString();
+                txtCol.Visible = true;
+                txtEdo.Visible = true;
+                txtCd.Visible = true;
+                mskCP.Visible = true;
+                label7.Visible = true;
+                label8.Visible = true;
+                label9.Visible = true;
+                label10.Visible = true;
+                actua();
+            }
+            catch (Exception)
+            {
+                return;
+            }
         }
     }
 }
