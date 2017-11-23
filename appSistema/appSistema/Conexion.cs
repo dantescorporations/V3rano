@@ -47,7 +47,7 @@ namespace appSistema
                 sqlc.ExecuteNonQuery();
                 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 MessageBox.Show("No se esta registrando Las Actividades en el LOG");
                 MessageBox.Show(query);
@@ -75,6 +75,7 @@ namespace appSistema
         {
             try
             {
+                lstConsulta.Clear();
                 Conectar();
                 //MySqlCommand q = new MySqlCommand(query, con);
                 MySqlDataAdapter da = new MySqlDataAdapter(query, con);
@@ -95,7 +96,7 @@ namespace appSistema
                     }
                     lstConsulta.Items.Add(item);
                 }
-
+                lstConsulta.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent);
                 con.Close();
             }
             catch (Exception ex)

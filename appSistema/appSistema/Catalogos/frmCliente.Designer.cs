@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCliente));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnBsr = new System.Windows.Forms.Button();
             this.txtnumero = new System.Windows.Forms.TextBox();
             this.mskTelefono = new System.Windows.Forms.MaskedTextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -60,7 +61,6 @@
             this.gpBAcciones = new System.Windows.Forms.GroupBox();
             this.BtnCancelar = new System.Windows.Forms.Button();
             this.gpBConsultas = new System.Windows.Forms.GroupBox();
-            this.btnBsr = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.gpBBuscar.SuspendLayout();
             this.gpBAcciones.SuspendLayout();
@@ -97,6 +97,16 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos del Cliente";
+            // 
+            // btnBsr
+            // 
+            this.btnBsr.Location = new System.Drawing.Point(223, 190);
+            this.btnBsr.Name = "btnBsr";
+            this.btnBsr.Size = new System.Drawing.Size(114, 23);
+            this.btnBsr.TabIndex = 7;
+            this.btnBsr.Text = "Buscar Entidad";
+            this.btnBsr.UseVisualStyleBackColor = true;
+            this.btnBsr.Click += new System.EventHandler(this.btnBsr_Click);
             // 
             // txtnumero
             // 
@@ -343,7 +353,6 @@
             this.gpBBuscar.Size = new System.Drawing.Size(237, 145);
             this.gpBBuscar.TabIndex = 15;
             this.gpBBuscar.TabStop = false;
-            this.gpBBuscar.Visible = false;
             // 
             // gpBAcciones
             // 
@@ -377,16 +386,6 @@
             this.gpBConsultas.Size = new System.Drawing.Size(266, 145);
             this.gpBConsultas.TabIndex = 8;
             this.gpBConsultas.TabStop = false;
-            // 
-            // btnBsr
-            // 
-            this.btnBsr.Location = new System.Drawing.Point(223, 190);
-            this.btnBsr.Name = "btnBsr";
-            this.btnBsr.Size = new System.Drawing.Size(114, 23);
-            this.btnBsr.TabIndex = 7;
-            this.btnBsr.Text = "Buscar Entidad";
-            this.btnBsr.UseVisualStyleBackColor = true;
-            this.btnBsr.Click += new System.EventHandler(this.btnBsr_Click);
             // 
             // frmCliente
             // 

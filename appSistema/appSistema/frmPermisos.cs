@@ -110,7 +110,7 @@ namespace appSistema
               
                 GenerarPermiso();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                
             } 

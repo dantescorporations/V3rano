@@ -26,17 +26,16 @@ namespace appSistema
         }
 
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnAceptar_Click(object sender, EventArgs e)
         {
-            lstwTabla.Clear();
-            string query = "SELECT * FROM vista_empleado WHERE " + cboColumnas.Text + "= '" + txtBuscar.Text + "'";
-            Conexion.LlenarListView(lstwTabla, query);
-            
+            if (!(lstwTabla.SelectedItems.Count <= 0))
+            {
+                strID = (lstwTabla.SelectedItems[0].SubItems[0].Text);
+                this.Close();
+            }
+            //string query = "SELECT * FROM vista_empleado WHERE " + cboColumnas.Text + "= '" + txtBuscar.Text + "'";
+
+
 
         }
 
@@ -75,7 +74,25 @@ namespace appSistema
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Conexion.arr[0] + "");
+            string campo;
+            string consultaFiltrada;
+            string filtro="";
+            switch (cboCriterio.Text )
+            {
+                case "Empieza":
+                    filtro = " like '%" + txtBuscar.Text + "'";
+                    break;
+                case "Termina":
+                    filtro = " like '" + txtBuscar.Text + "%'";
+                    break;
+                default:
+                    filtro = " like '%" + txtBuscar.Text + "%'";
+                    break;
+            }
+            campo = cboColumnas.Text;
+            consultaFiltrada = consulta + " where " + campo + filtro ;
+            Conexion.LlenarListView(lstwTabla, consultaFiltrada);
+            //MessageBox.Show(Conexion.arr[0] + "");
         }
 
         private void lstwTabla_MouseDoubleClick(object sender, MouseEventArgs e)
@@ -89,6 +106,10 @@ namespace appSistema
 
         string strID;
         public string ID { get { return strID; } }
-      
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

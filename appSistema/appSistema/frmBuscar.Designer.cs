@@ -54,13 +54,12 @@
             this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Buscar :";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.label2.Location = new System.Drawing.Point(23, 94);
+            this.label2.Location = new System.Drawing.Point(23, 103);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 16);
             this.label2.TabIndex = 1;
@@ -70,7 +69,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 9.75F);
-            this.label3.Location = new System.Drawing.Point(23, 131);
+            this.label3.Location = new System.Drawing.Point(23, 140);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(56, 16);
             this.label3.TabIndex = 2;
@@ -87,7 +86,11 @@
             // cboCriterio
             // 
             this.cboCriterio.FormattingEnabled = true;
-            this.cboCriterio.Location = new System.Drawing.Point(83, 90);
+            this.cboCriterio.Items.AddRange(new object[] {
+            "Contiene",
+            "Empieza",
+            "Termina"});
+            this.cboCriterio.Location = new System.Drawing.Point(83, 99);
             this.cboCriterio.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cboCriterio.Name = "cboCriterio";
             this.cboCriterio.Size = new System.Drawing.Size(140, 24);
@@ -96,7 +99,7 @@
             // cboOpcion
             // 
             this.cboOpcion.FormattingEnabled = true;
-            this.cboOpcion.Location = new System.Drawing.Point(84, 127);
+            this.cboOpcion.Location = new System.Drawing.Point(84, 136);
             this.cboOpcion.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cboOpcion.Name = "cboOpcion";
             this.cboOpcion.Size = new System.Drawing.Size(140, 24);
@@ -136,6 +139,7 @@
             this.btnCerrar.TabIndex = 8;
             this.btnCerrar.Text = "Cerrar [Esc]";
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // label4
             // 
@@ -174,7 +178,7 @@
             // cboColumnas
             // 
             this.cboColumnas.FormattingEnabled = true;
-            this.cboColumnas.Location = new System.Drawing.Point(84, 174);
+            this.cboColumnas.Location = new System.Drawing.Point(83, 71);
             this.cboColumnas.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.cboColumnas.Name = "cboColumnas";
             this.cboColumnas.Size = new System.Drawing.Size(140, 24);

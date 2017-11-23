@@ -62,7 +62,6 @@ namespace appSistema
             label8.Visible = false;
             label9.Visible = false;
             label10.Visible = false;
-            btnBsr.Enabled = false;
         }
        
         public void Limpiar()
@@ -127,6 +126,7 @@ namespace appSistema
         private void btnInsertar_Click(object sender, EventArgs e)
         {
             btnInsertarPresionado = true;
+            gpBBuscar.Visible = false;
             txtClave.Enabled = true;
             Habilitar();
             gpBAcciones.Visible = true;
@@ -221,11 +221,13 @@ namespace appSistema
             {
                 frmBuscar frm = new frmBuscar();
                 frm.Consulta = "SELECT * FROM vista_cliente";
-                frm.ShowDialog();
-                straux = frm.ID;
-                if (straux.Trim() == "")
+                    
+                if (frm.ShowDialog() != DialogResult.OK)
+                {
                     return;
-
+                }
+                straux = frm.ID;
+               
                 dr = Conexion.ObtenerDatos("select * from cliente where idCliente = '" + straux + "'");
                 txtClave.Text = dr.ItemArray[10].ToString();
                 txtRS.Text = dr.ItemArray[1].ToString();
@@ -291,8 +293,8 @@ namespace appSistema
         private void BtnCancelar_Click(object sender, EventArgs e)
         {
             gpBAcciones.Visible = false;
-            gpBBuscar.Visible = false;
             gpBConsultas.Visible = true;
+            gpBBuscar.Visible = true;
             Limpiar();
             Deshabilitar();
             btnInsertarPresionado = false;
