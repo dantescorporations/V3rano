@@ -221,13 +221,15 @@ namespace appSistema
             {
                 frmBuscar frm = new frmBuscar();
                 frm.Consulta = "SELECT * FROM vista_cliente";
-                    
-                if (frm.ShowDialog() != DialogResult.OK)
-                {
-                    return;
-                }
+                frm.ShowDialog();
+                //if (frm.ShowDialog() != DialogResult.OK)
+                //{
+                //    return;
+                //}
                 straux = frm.ID;
-               
+                if (straux.Trim() == "")
+                    return;
+
                 dr = Conexion.ObtenerDatos("select * from cliente where idCliente = '" + straux + "'");
                 txtClave.Text = dr.ItemArray[10].ToString();
                 txtRS.Text = dr.ItemArray[1].ToString();
@@ -310,8 +312,8 @@ namespace appSistema
                 frm.Consulta = "SELECT * FROM vista_entidades";
                 frm.ShowDialog();
                 straux = frm.ID;
-                if (straux.Trim() == "")
-                    return;
+                //if (straux.Trim() == "")
+                //    return;
 
                 dr = Conexion.ObtenerDatos("select * from cliente where idCliente = '" + straux + "'");
                 txtClave.Text = dr.ItemArray[10].ToString();

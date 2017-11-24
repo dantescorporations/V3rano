@@ -29,12 +29,12 @@ namespace appSistema
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             if (!(lstwTabla.SelectedItems.Count <= 0))
-            {
-                strID = (lstwTabla.SelectedItems[0].SubItems[0].Text);
-                this.Close();
-            }
+                {
+                    strID = (lstwTabla.SelectedItems[0].SubItems[0].Text);
+                    this.Close();
+                }
             //string query = "SELECT * FROM vista_empleado WHERE " + cboColumnas.Text + "= '" + txtBuscar.Text + "'";
-
+            
 
 
         }
@@ -109,7 +109,15 @@ namespace appSistema
 
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            DialogResult dialogresult = MessageBox.Show("Realmente desea cancelar esta operacion", "Mensaje", MessageBoxButtons.YesNo);
+            if (dialogresult == DialogResult.Yes)
+            {
+                this.Close();
+            }
+            else
+            {
+                return;
+            }
         }
     }
 }
