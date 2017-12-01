@@ -6,15 +6,20 @@ using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Data;
 using appSistema.Módulos;
+using System.IO;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+using Excel = Microsoft.Office.Interop.Excel;
+
 
 namespace appSistema
 {
     static class Conexion
     {
-        private static MySqlConnection con = new MySqlConnection("server=127.0.0.1; database=pymes; Uid=root; pwd=;");
+        public static MySqlConnection con = new MySqlConnection("server=127.0.0.1; database=pymes; Uid=root; pwd=;");
         public static string[] arr;
 
-        private static  void Conectar()
+        private static void Conectar()
         {
             try
             {
@@ -23,10 +28,10 @@ namespace appSistema
             }
             catch (Exception)
             {
-                
-              
+
+
             }
-         
+
         }
 
         //---------------------- Usuario Global Loguado
@@ -37,7 +42,7 @@ namespace appSistema
         public static void RegistrarLog(string descripcion)
         {
             //CAMBIAR VALUE POR SUsuario
-            string query = "INSERT INTO log ( idEmpleado, fecha, descripcion) VALUES ( '"+SUsuario+"', '" + DateTime.Now + "', '" + descripcion + "')";
+            string query = "INSERT INTO log ( idEmpleado, fecha, descripcion) VALUES ( '" + SUsuario + "', '" + DateTime.Now + "', '" + descripcion + "')";
             Conectar();
             try
             {
@@ -45,7 +50,7 @@ namespace appSistema
                 Conectar();
                 MySqlCommand sqlc = new MySqlCommand(query, con);
                 sqlc.ExecuteNonQuery();
-                
+
             }
             catch (Exception)
             {
@@ -59,18 +64,17 @@ namespace appSistema
         {
             Conectar();
             DataSet ds = new DataSet();
-            MySqlDataAdapter da = new MySqlDataAdapter(query,con);
-         
+            MySqlDataAdapter da = new MySqlDataAdapter(query, con);
+
             da.Fill(ds);
 
-       
+
             lstConsulta.DataSource = ds.Tables[0];
             lstConsulta.DisplayMember = "nombrePermiso";
             lstConsulta.ValueMember = "idPermiso";
 
             con.Close();
         }
-
         public static void LlenarListView(ListView lstConsulta, string query)
         {
             try
@@ -80,17 +84,18 @@ namespace appSistema
                 //MySqlCommand q = new MySqlCommand(query, con);
                 MySqlDataAdapter da = new MySqlDataAdapter(query, con);
                 //da.SelectCommand = q;
-                DataSet ds = new DataSet();
+                //DataSet ds = new DataSet();
+                DataTable ds = new DataTable();
                 da.Fill(ds);
 
-                for (int i = 0; i < ds.Tables[0].Columns.Count; i++)
+                for (int i = 0; i < ds.Columns.Count; i++)
                 {
-                    lstConsulta.Columns.Add(ds.Tables[0].Columns[i].ColumnName);
+                    lstConsulta.Columns.Add(ds.Columns[i].ColumnName);
                 }
-                foreach (DataRow row in ds.Tables[0].Rows)
+                foreach (DataRow row in ds.Rows)
                 {
                     ListViewItem item = new ListViewItem(row[0].ToString());
-                    for (int j = 1; j < ds.Tables[0].Columns.Count; j++)
+                    for (int j = 1; j < ds.Columns.Count; j++)
                     {
                         item.SubItems.Add(row[j].ToString());
                     }
@@ -101,7 +106,7 @@ namespace appSistema
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message+"");
+                MessageBox.Show(ex.Message + "");
             }
         }
 
@@ -111,7 +116,7 @@ namespace appSistema
         //    for (int i = 0; i < lstwTabla.Columns.Count; i++)
         //    {
         //        cbo.DataSource = lstwTabla.ToString();
-              
+
         //        cbo.DisplayMember = lstwTabla.Columns[i].Name;
         //    }
         //}
@@ -127,14 +132,14 @@ namespace appSistema
                 da.Fill(ds);
 
                 cmbConsulta.DataSource = ds.Tables[0];
-                cmbConsulta.ValueMember =ds.Tables[0].Columns[0].ColumnName;
-                cmbConsulta.DisplayMember = ds.Tables[0].Columns[1].ColumnName; 
-             
+                cmbConsulta.ValueMember = ds.Tables[0].Columns[0].ColumnName;
+                cmbConsulta.DisplayMember = ds.Tables[0].Columns[1].ColumnName;
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            } 
+            }
 
 
             con.Close();
@@ -159,7 +164,7 @@ namespace appSistema
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
-            } 
+            }
         }
 
         public static DataRow ObtenerDatos(string query)
@@ -185,9 +190,9 @@ namespace appSistema
             catch (Exception)
             {
                 return null;
-             
+
             }
-      
+
         }
 
         public static bool ValidarRegistro(string query)
@@ -207,7 +212,7 @@ namespace appSistema
                 }
                 else
                 {
-                 
+
                     return false;
                 }
             }
@@ -227,7 +232,7 @@ namespace appSistema
             try
             {
                 Conectar();
-                MySqlCommand sqlc = new MySqlCommand(query,con);
+                MySqlCommand sqlc = new MySqlCommand(query, con);
                 sqlc.ExecuteNonQuery();
                 MessageBox.Show("Hecho");
             }
@@ -236,15 +241,15 @@ namespace appSistema
                 MessageBox.Show(ex.Message);
             }
             con.Close();
-          
+
         }
-     
+
 
         public static void MostrarMensaje(string texto)
         {
-  
+
             frmMensaje x = new frmMensaje(texto);
-     
+
             x.ShowDialog();
         }
         public static void Modificar(string query)
@@ -290,8 +295,101 @@ namespace appSistema
 
             return false;
         }
+        public static void ExportToExcel(this DataTable tbl, string excelFilePath = null)
+        {
+            try
+            {
+                if (tbl == null || tbl.Columns.Count == 0)
+                    throw new Exception("ExportToExcel: Null or empty input table!\n");
 
+                // load excel, and create a new workbook
+                var excelApp = new Excel.Application();
+                excelApp.Workbooks.Add();
 
+                // single worksheet
+                Excel._Worksheet workSheet = excelApp.ActiveSheet;
+
+                // column headings
+                for (var i = 0; i < tbl.Columns.Count; i++)
+                {
+                    workSheet.Cells[1, i + 1] = tbl.Columns[i].ColumnName;
+                }
+
+                // rows
+                for (var i = 0; i < tbl.Rows.Count; i++)
+                {
+                    // to do: format datetime values before printing
+                    for (var j = 0; j < tbl.Columns.Count; j++)
+                    {
+                        workSheet.Cells[i + 2, j + 1] = tbl.Rows[i][j];
+                    }
+                }
+
+                // check file path
+                if (!string.IsNullOrEmpty(excelFilePath))
+                {
+                    try
+                    {
+                        workSheet.SaveAs(excelFilePath);
+                        excelApp.Quit();
+                        MessageBox.Show("Archivo Exportado Con Exito!");
+                    }
+                    catch (Exception ex)
+                    {
+                        throw new Exception("ExportToExcel: Excel file could not be saved! Check filepath.\n"
+                                            + ex.Message);
+                    }
+                }
+                else
+                { // no file path is given
+                    excelApp.Visible = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("ExportToExcel: \n" + ex.Message);
+            }
+        }
+        public static void ExportToPdf(this DataTable dt, string filepath = null)
+        {
+            Document document = new Document();
+            PdfWriter writer = PdfWriter.GetInstance(document, new FileStream(filepath, FileMode.Create));
+            document.Open();
+
+            PdfPTable table = new PdfPTable(dt.Columns.Count);
+            table.WidthPercentage = 100;
+
+            //Set columns names in the pdf file
+            for (int k = 0; k < dt.Columns.Count; k++)
+            {
+                PdfPCell cell = new PdfPCell(new Phrase(dt.Columns[k].ColumnName));
+                cell.HorizontalAlignment = PdfPCell.ALIGN_CENTER;
+                cell.VerticalAlignment = PdfPCell.ALIGN_CENTER;
+                cell.BackgroundColor = new iTextSharp.text.BaseColor(51, 102, 102);
+
+                table.AddCell(cell);
+            }
+
+            //Add values of DataTable in pdf file
+            for (int i = 0; i < dt.Rows.Count; i++)
+            {
+                for (int j = 0; j < dt.Columns.Count; j++)
+                {
+                    PdfPCell cell = new PdfPCell(new Phrase(dt.Rows[i][j].ToString()));
+
+                    //Align the cell in the center
+                    cell.HorizontalAlignment = PdfPCell.ALIGN_CENTER;
+                    cell.VerticalAlignment = PdfPCell.ALIGN_CENTER;
+
+                    table.AddCell(cell);
+                }
+            }
+
+            document.Add(table);
+            document.Close();
+
+            System.Diagnostics.Process.Start(filepath);
+
+        }
     }
-
 }

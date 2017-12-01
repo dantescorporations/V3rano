@@ -94,5 +94,10 @@ namespace appSistema
             Conexion.LlenarListView(lstvCotizacion, query);
             //MessageBox.Show(straux);
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            //Conexion.ExportarExcel_DT()
+        }
     }
 }

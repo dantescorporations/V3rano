@@ -119,5 +119,21 @@ namespace appSistema
                 return;
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MySql.Data.MySqlClient.MySqlDataAdapter mySql = new MySql.Data.MySqlClient.MySqlDataAdapter("SELECT * FROM vista_empleado", Conexion.con);
+            DataTable dt = new DataTable();
+            mySql.Fill(dt);
+            var savefiledialog = new SaveFileDialog();
+            savefiledialog.FileName = "";
+            savefiledialog.DefaultExt = ".pdf";
+            savefiledialog.Filter = "Archivo en formato PDF (*.pdf)|*.pdf";
+            if (savefiledialog.ShowDialog() == DialogResult.OK)
+            {
+                //dt.ExportToExcel(savefiledialog.FileName);
+                dt.ExportToPdf(savefiledialog.FileName);
+            }
+        }
     }
 }

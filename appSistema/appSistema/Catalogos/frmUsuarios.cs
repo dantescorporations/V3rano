@@ -125,9 +125,10 @@ namespace appSistema
                 cboDepartamento.SelectedValue = dr.ItemArray[16].ToString();
                 actua();
             }
-            catch (Exception)
+            catch (Exception es)
             {
 
+                MessageBox.Show(es.ToString());
                 return;
             }
         }
